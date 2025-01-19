@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     // variables
+    const double serviceChargePercent = 0.015;
     double buyingPrice;
     double sellingPrice;
     int sharesSold;
@@ -23,11 +24,11 @@ int main()
     cout << endl;
 
     // run calculations
+    cout << "Invested: $" << buyingPrice * (1 + serviceChargePercent) * sharesSold << endl;
+    cout << "Received: $" << sellingPrice * (1 - serviceChargePercent) * sharesSold << endl;
     const double investment = buyingPrice * sharesSold;
     const double income = sellingPrice * sharesSold;
-    cout << "Invested: $" << investment << endl;
-    cout << "Received: $" << income << endl;
-    const double serviceCharge = (income + investment) * 0.015;
+    const double serviceCharge = (income + investment) * serviceChargePercent;
     cout << "Service charge: $" << serviceCharge << endl;
     cout << "Delta: $" << income - investment - serviceCharge << endl;
 
