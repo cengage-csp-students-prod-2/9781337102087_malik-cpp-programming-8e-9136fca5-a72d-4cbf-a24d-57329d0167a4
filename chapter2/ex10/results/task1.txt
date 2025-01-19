@@ -3,24 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Test case 1: Checking the sum of positive floating-point numbers.
 Reason: None
-Timestamp: 2025-01-19 17:58:30.280664
+Timestamp: 2025-01-19 17:59:49.755762
 
 Status: PASSED!
 Check: 2
 Test: Test case 2: Evaluating the result of mixed floating-point arithmetic.
 Reason: None
-Timestamp: 2025-01-19 17:58:30.283862
+Timestamp: 2025-01-19 17:59:49.759948
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Test case 3: Assessing the calculation with negative and positive floating-point numbers.
-Reason: Unable to find '['58(?<!\\.)\\s*$']' in the program's output.
-#1:
-#2:
-#3:
-#4:
-#5:
-Sum: 57
-.
-Error : AssertionError - Unable to find 58(?<!\.)\s*$ in the program's output.
-Timestamp: 2025-01-19 17:58:30.287024
+Reason: None
+Timestamp: 2025-01-19 17:59:49.764103
