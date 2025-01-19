@@ -1,16 +1,25 @@
-//include statement(s)
+// include statement(s)
+#include <iostream>
 
-//using namespace statement
-
+// using namespace statement
+using namespace std;
 
 int main()
 {
 
-//variable declaration
+    // variable declaration
+    int num1 = 125;
+    int num2 = 28;
+    int num3 = -25;
+    int average = 0;
 
+    // executable statements
+    average += num1;
+    average += num2;
+    average += num3;
+    average /= 3;
 
-//executable statements
+    std::cout << "Average: " << average << std::endl;
 
-
-//return 0;
+    // return 0;
 }
