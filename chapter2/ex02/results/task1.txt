@@ -1,18 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Correct number and order of characters output
-Reason: Unable to find '['CCCCCCCCC', '++', '++', 'CC', '++', '++', 'CC', '++++++++++++++', '++++++++++++++', 'CC', '++++++++++++++', '++++++++++++++', 'CC', '++', '++', 'CCCCCCCCC', '++', '++']' in the program's output.
-CCCCCCCCC       ++              ++
-.
-Error : AssertionError - Unable to find ++++++++++++++ in the program's output.
-Timestamp: 2025-01-19 16:52:47.441434
+Reason: None
+Timestamp: 2025-01-19 16:53:48.880457
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Correct structure of characters output
-Reason: Unable to find '['^(CCCCCCCCC)\\s{7}\\+\\+\\s{14}\\+\\+$', '^(CC)\\s{14}\\+\\+\\s{14}\\+\\+$', '^(CC)\\s{8}\\+{14}\\s\\s\\+{15}$', '^(CC)\\s{8}\\+{14}\\s\\s\\+{15}$', '^(CC)\\s{14}\\+\\+\\s{14}\\+\\+$', '^(CCCCCCCCC)\\s{7}\\+\\+\\s{14}\\+\\+$']' in the program's output.
-CCCCCCCCC       ++              ++
-.
-Error : AssertionError - Unable to find (CC)\s{14}\+\+\s{14}\+\+ in the program's output.
-Timestamp: 2025-01-19 16:52:47.446042
+Reason: None
+Timestamp: 2025-01-19 16:53:48.883904
