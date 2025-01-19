@@ -16,7 +16,5 @@ int main()
     // executable statements
     average = (num1 + num2 + num3) / 3;
 
-    std::cout << "Average: " << average << std::endl;
-
-    // return 0;
+    return 0;
 }
