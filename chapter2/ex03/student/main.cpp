@@ -14,10 +14,7 @@ int main()
     int average = 0;
 
     // executable statements
-    average += num1;
-    average += num2;
-    average += num3;
-    average /= 3;
+    average = (num1 + num2 + num3) / 3
 
     std::cout << "Average: " << average << std::endl;
 
