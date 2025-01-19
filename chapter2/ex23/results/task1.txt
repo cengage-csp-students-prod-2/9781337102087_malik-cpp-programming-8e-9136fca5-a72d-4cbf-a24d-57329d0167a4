@@ -1,30 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test case 1
-Reason: Unable to find '['3335.79', '3750.54', '106.412', '414.748']' in the program's output.
-Buying price: $
-Selling price: $
-Shares sold: 
-Invested: $3286.49
-Received: $3807.65
-Service charge: $106.412
-Delta: $414.748
-.
-Error : AssertionError - Unable to find a number close enough to 3335.79 (+/-0.00) in the program's output.
-Timestamp: 2025-01-19 20:00:10.445167
+Reason: None
+Timestamp: 2025-01-19 20:29:57.584520
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test case 2
-Reason: Unable to find '['25422.7', '6571.54', '475.779', '-18851.2']' in the program's output.
-Buying price: $
-Selling price: $
-Shares sold: 
-Invested: $25047
-Received: $6671.61
-Service charge: $475.779
-Delta: $-18851.2
-.
-Error : AssertionError - Unable to find a number close enough to 25422.7 (+/-0.00) in the program's output.
-Timestamp: 2025-01-19 20:00:10.447307
+Reason: None
+Timestamp: 2025-01-19 20:29:57.586670
