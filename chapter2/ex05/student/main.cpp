@@ -1,31 +1,24 @@
 #include <iostream>
 
-{
-
-int main()
-
-cout << "Enter the radius: ";
-
-cin >> radius;
-
-cout << endl;
-
-double radius;
-double area;
-
 using namespace std;
 
-return 0;
+int main()
+{
+    const double PI = 3.14;
+    double radius;
+    double area;
+    double circumference;
 
-cout << "Area = " << area << endl;
+    cout << "Enter the radius: ";
+    cout << endl;
+    cin >> radius;
 
-area = PI * radius * radius;
+    area = PI * radius * radius;
 
-circumference = 2 * PI * radius;
+    circumference = 2 * PI * radius;
 
-cout << "Circumference = " << circumference << endl;
+    cout << "Area = " << area << endl;
+    cout << "Circumference = " << circumference << endl;
 
-const double PI = 3.14;
-
-double circumference;
+    return 0;
 }
