@@ -25,7 +25,7 @@ int main()
     cout << "#5:" << endl;
     cin >> num5;
 
-    cout << "Average: " << (num1 + num2 + num3 + num4 + num5) / 5 << endl; 
+    cout << "Sum: " << int (num1 + num2 + num3 + num4 + num5) << endl; 
 
     return 0;
 }
