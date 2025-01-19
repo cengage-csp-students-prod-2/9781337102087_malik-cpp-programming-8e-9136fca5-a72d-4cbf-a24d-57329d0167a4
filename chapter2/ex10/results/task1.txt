@@ -1,31 +1,15 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test case 1: Checking the sum of positive floating-point numbers.
-Reason: Unable to find '['150(?<!\\.)\\s*$']' in the program's output.
-#1:
-#2:
-#3:
-#4:
-#5:
-Average: 30
-.
-Error : AssertionError - Unable to find 150(?<!\.)\s*$ in the program's output.
-Timestamp: 2025-01-19 17:55:48.382859
+Reason: None
+Timestamp: 2025-01-19 17:58:30.280664
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test case 2: Evaluating the result of mixed floating-point arithmetic.
-Reason: Unable to find '['300(?<!\\.)\\s*$']' in the program's output.
-#1:
-#2:
-#3:
-#4:
-#5:
-Average: 60.0821
-.
-Error : AssertionError - Unable to find 300(?<!\.)\s*$ in the program's output.
-Timestamp: 2025-01-19 17:55:48.386085
+Reason: None
+Timestamp: 2025-01-19 17:58:30.283862
 
 Status: FAILED!
 Check: 3
@@ -36,7 +20,7 @@ Reason: Unable to find '['58(?<!\\.)\\s*$']' in the program's output.
 #3:
 #4:
 #5:
-Average: 11.5514
+Sum: 57
 .
 Error : AssertionError - Unable to find 58(?<!\.)\s*$ in the program's output.
-Timestamp: 2025-01-19 17:55:48.390188
+Timestamp: 2025-01-19 17:58:30.287024
