@@ -1,7 +1,9 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-01-19 17:19:46.042641
+Test: Correct variable values printed to screen
+Reason: Unable to find '['(125)(?!\\d)', '(28)(?!\\d)', '(\\-25)(?!\\d)', '(42)(?!\\d)']' in the program's output.
+Average: 42
+.
+Error : AssertionError - Unable to find (125)(?!\d) in the program's output.
+Timestamp: 2025-01-19 17:20:23.699919

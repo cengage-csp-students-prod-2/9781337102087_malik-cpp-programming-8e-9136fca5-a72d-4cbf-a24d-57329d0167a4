@@ -1,28 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-01-19 17:19:46.042069
+Test: Variable `num1` declared of type `int`
+Reason: int num1 + ` was found in the program.None
+Timestamp: 2025-01-19 17:20:23.696069
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-01-19 17:19:46.042168
+Test: Variable `num2` declared of type `int`
+Reason: int num2 + ` was found in the program.None
+Timestamp: 2025-01-19 17:20:23.696283
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-01-19 17:19:46.042240
+Test: Variable `num3` declared of type `int`
+Reason: int num3 + ` was found in the program.None
+Timestamp: 2025-01-19 17:20:23.696488
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-01-19 17:19:46.042327
+Test: Variable `average` declared of type `int`
+Reason: int average + ` was found in the program.None
+Timestamp: 2025-01-19 17:20:23.696673
