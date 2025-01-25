@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double main()
+int main()
 {
     // variables
     double doorWidth;
