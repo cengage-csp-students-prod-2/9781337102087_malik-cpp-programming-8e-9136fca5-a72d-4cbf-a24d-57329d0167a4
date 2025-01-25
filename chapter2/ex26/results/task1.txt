@@ -1,16 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test case 1
-Reason: Unable to find '['66.358']' in the program's output.
-Door width: Door height: Window 1 width: Window 1 height: Window 2 width: Window 2 height: Bookshelf width: Bookshelf height: Bookshelf width: Room length: Room width: Room height: You need-42.3417gallons of paint.
-Error : AssertionError - Unable to find a number close enough to 66.358 (+/-0.00) in the program's output.
-Timestamp: 2025-01-25 01:39:40.029610
+Reason: None
+Timestamp: 2025-01-25 01:40:57.887798
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test case 2
-Reason: Unable to find '['66.944']' in the program's output.
-Door width: Door height: Window 1 width: Window 1 height: Window 2 width: Window 2 height: Bookshelf width: Bookshelf height: Bookshelf width: Room length: Room width: Room height: You need-10.6222gallons of paint.
-Error : AssertionError - Unable to find a number close enough to 66.944 (+/-0.00) in the program's output.
-Timestamp: 2025-01-25 01:39:40.031774
+Reason: None
+Timestamp: 2025-01-25 01:40:57.889951
