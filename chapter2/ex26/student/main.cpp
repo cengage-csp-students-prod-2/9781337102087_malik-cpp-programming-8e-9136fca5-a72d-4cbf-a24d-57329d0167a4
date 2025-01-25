@@ -40,9 +40,6 @@ int main()
     cout << "Window 2 height: ";
     cin >> window2Height;
 
-    cout << "Bookshelf width: ";
-    cin >> window2Width;
-
     cout << "Bookshelf height: ";
     cin >> bookshelfHeight;
 
