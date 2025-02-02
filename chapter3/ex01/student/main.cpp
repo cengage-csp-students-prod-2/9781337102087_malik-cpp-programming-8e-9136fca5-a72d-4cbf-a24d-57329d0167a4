@@ -16,5 +16,5 @@ int main()
 
     // close files
     inFile.close();
-    outfile.close();
+    outFile.close();
 }
