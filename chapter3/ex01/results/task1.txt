@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: Close `inFile`
+Reason: Unable to find 'inFile.close()' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-02 04:01:04.435576
+
+Status: FAILED!
+Check: 2
+Test: Close `outFile`
+Reason: Unable to find '    outFile.close();' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-02 04:01:04.436049
