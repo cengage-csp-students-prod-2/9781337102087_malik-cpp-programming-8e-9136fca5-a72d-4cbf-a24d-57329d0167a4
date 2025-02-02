@@ -3,6 +3,10 @@
 using namespace std;
 
 int main() {
-    // Write your main here
-    return 0;
+    double inputWeight;
+
+    cout << "Weight in kilograms: ";
+    std::cin >> inputWeight;
+
+    cout << "Weight in pounds: " << inputWeight * double(2.2) << '\n';
 }
