@@ -14,5 +14,7 @@ int main()
     inFile.open("inData.txt");
     outFile.open("outData.txt");
 
-    //
+    // close files
+    inFile.close();
+    outfile.close();
 }
