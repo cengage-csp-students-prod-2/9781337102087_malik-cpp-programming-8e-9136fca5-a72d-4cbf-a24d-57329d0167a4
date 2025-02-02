@@ -1,18 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Correct output in pounds test 1
-Reason: Unable to find '['176.00']' in the program's output.
-Weight in kilograms: Weight in pounds: 1.8e+02
-.
-Error : AssertionError - Unable to find a number close enough to 176.00 (+/-0.00) in the program's output.
-Timestamp: 2025-02-02 17:52:11.757120
+Reason: None
+Timestamp: 2025-02-02 17:54:12.487418
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Correct output in pounds test 2
-Reason: Unable to find '['266.20']' in the program's output.
-Weight in kilograms: Weight in pounds: 2.7e+02
-.
-Error : AssertionError - Unable to find a number close enough to 266.20 (+/-0.00) in the program's output.
-Timestamp: 2025-02-02 17:52:11.759227
+Reason: None
+Timestamp: 2025-02-02 17:54:12.489558
