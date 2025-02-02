@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-02-02 04:01:45.521654
+Test: Close `inFile`
+Reason: inFile.close() + ` was found in the program.None
+Timestamp: 2025-02-02 04:02:10.650385
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-02-02 04:01:45.521859
+Test: Close `outFile`
+Reason:     outFile.close(); + ` was found in the program.None
+Timestamp: 2025-02-02 04:02:10.650711
