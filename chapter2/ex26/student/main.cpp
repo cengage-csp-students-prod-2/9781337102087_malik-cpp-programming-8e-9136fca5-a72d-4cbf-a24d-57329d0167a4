@@ -56,16 +56,16 @@ int main()
     cin >> roomHeight;
 
     // run calculations
-    const double basePadoubleArea = roomLength * roomHeight * 2 + roomWidth * roomHeight * 2;
+    const double basePaintArea = roomLength * roomHeight * 2 + roomWidth * roomHeight * 2;
     const double doorArea = doorWidth * doorHeight;
     const double window1Area = window1Width * window1Height;
     const double window2Area = window2Width * window2Height;
     const double bookshelfArea = bookshelfWidth * bookshelfHeight;
     const double negativeArea = doorArea + window1Area + window2Area + bookshelfArea;
-    const double padoubleingArea = basePadoubleArea - negativeArea;
-    const double padoubleGallons = padoubleingArea / 120;
+    const double paintingArea = basePaintArea - negativeArea;
+    const double paintGallons = paintingArea / 120;
 
-    cout << "You need" << padoubleGallons << "gallons of paint";
+    cout << "You need" << paintGallons << "gallons of paint";
 
     // Write your main here
     return 0;
