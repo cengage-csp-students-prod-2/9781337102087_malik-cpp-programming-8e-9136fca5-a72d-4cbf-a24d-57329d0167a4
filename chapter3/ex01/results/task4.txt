@@ -1,12 +1,14 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: `inFile` declared
-Reason: ifstream inFile + ` was found in the program.None
-Timestamp: 2025-02-02 04:01:04.437982
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2025-02-02 04:01:45.522424
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: `outFile` declared
-Reason: ofstream outFile + ` was found in the program.None
-Timestamp: 2025-02-02 04:01:04.438353
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2025-02-02 04:01:45.522552

@@ -1,12 +1,14 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: Open *inData.txt* and associate with `inFile`
-Reason: inFile.open("inData.txt"); + ` was found in the program.None
-Timestamp: 2025-02-02 04:01:04.437348
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2025-02-02 04:01:45.522241
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: Open *outData.txt* and associate with `outFile`
-Reason:     outFile.open("outData.txt"); + ` was found in the program.None
-Timestamp: 2025-02-02 04:01:04.437730
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2025-02-02 04:01:45.522343
