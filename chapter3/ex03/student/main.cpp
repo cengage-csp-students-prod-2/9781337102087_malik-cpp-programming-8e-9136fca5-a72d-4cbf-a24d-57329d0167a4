@@ -9,5 +9,5 @@ int main() {
     cout << "Weight in kilograms: ";
     cin >> inputWeight;
 
-    cout << "Weight in pounds: " << setprecision(2) << inputWeight * double(2.2) << '\n';
+    cout << "Weight in pounds: " << fixed << setprecision(2) << inputWeight * double(2.2) << '\n';
 }
