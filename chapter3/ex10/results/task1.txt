@@ -3,14 +3,14 @@ Status: FAILED!
 Check: 1
 Test: Number and space for trees correctly output test 1
 Reason: Unable to find '['5', '1005.31']' in the program's output.
-Yard side length: Tree radius: Space between each tree8 trees taking 201units of space.
-Error : AssertionError - Unable to find a number close enough to 5 (+/-0.00) in the program's output.
-Timestamp: 2025-02-03 01:14:14.139398
+Yard side length: Tree radius: Space between each tree: 5 trees taking 201units of space.
+Error : AssertionError - Unable to find a number close enough to 1005.31 (+/-0.00) in the program's output.
+Timestamp: 2025-02-03 01:15:54.043362
 
 Status: FAILED!
 Check: 2
 Test: Number and space for trees correctly output test 2
 Reason: Unable to find '['1', '380.13']' in the program's output.
-Yard side length: Tree radius: Space between each tree3 trees taking 380units of space.
-Error : AssertionError - Unable to find a number close enough to 1 (+/-0.00) in the program's output.
-Timestamp: 2025-02-03 01:14:14.141791
+Yard side length: Tree radius: Space between each tree: 1 trees taking 380units of space.
+Error : AssertionError - Unable to find a number close enough to 380.13 (+/-0.00) in the program's output.
+Timestamp: 2025-02-03 01:15:54.046340
