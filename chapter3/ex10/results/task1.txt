@@ -6,7 +6,7 @@ Reason: Unable to find '['5', '1005.31']' in the program's output.
 Yard side length: Tree radius: Space between each tree: 5 trees taking 201.062 units of space
 .
 Error : AssertionError - Unable to find a number close enough to 1005.31 (+/-0.00) in the program's output.
-Timestamp: 2025-02-03 01:20:30.926689
+Timestamp: 2025-02-03 01:22:06.146562
 
 Status: FAILED!
 Check: 2
@@ -15,4 +15,4 @@ Reason: Unable to find '['1', '380.13']' in the program's output.
 Yard side length: Tree radius: Space between each tree: 1 trees taking 380.132 units of space
 .
 Error : AssertionError - Unable to find a number close enough to 380.13 (+/-0.00) in the program's output.
-Timestamp: 2025-02-03 01:20:30.930016
+Timestamp: 2025-02-03 01:22:06.148753
