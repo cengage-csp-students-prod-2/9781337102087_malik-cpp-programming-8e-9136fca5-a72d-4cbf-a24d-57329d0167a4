@@ -1,0 +1,16 @@
+
+Status: FAILED!
+Check: 1
+Test: Correct output for cube side test 1
+Reason: Unable to find '['69.84']' in the program's output.
+Cylinder radius: Cylinder height: Cube side length: 69.8363 units.
+Error : AssertionError - Unable to find a number close enough to 69.84 (+/-0.00) in the program's output.
+Timestamp: 2025-02-03 00:47:40.493905
+
+Status: FAILED!
+Check: 2
+Test: Correct output for cube side test 2
+Reason: Unable to find '['95.53']' in the program's output.
+Cylinder radius: Cylinder height: Cube side length: 95.533 units.
+Error : AssertionError - Unable to find a number close enough to 95.53 (+/-0.00) in the program's output.
+Timestamp: 2025-02-03 00:47:40.496167
