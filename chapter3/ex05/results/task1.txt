@@ -3,31 +3,28 @@ Status: PASSED!
 Check: 1
 Test: Run the program to produce *Ch3_Ex5Output.dat*
 Reason: None
-Timestamp: 2025-02-03 00:31:59.577056
+Timestamp: 2025-02-03 00:35:47.443203
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 1
-Reason: Unable to find 'Andrew Miller 69079.36' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-03 00:31:59.577374
+Reason: Andrew Miller 69079.36 + ` was found in the program.None
+Timestamp: 2025-02-03 00:35:47.443578
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 2
-Reason: Unable to find 'Sheila Green 80446.11' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-03 00:31:59.577571
+Reason: Sheila Green 80446.11 + ` was found in the program.None
+Timestamp: 2025-02-03 00:35:47.443831
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 3
-Reason: Unable to find 'Amit Sethi 79469.43' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-03 00:31:59.577821
+Reason: Amit Sethi 79469.43 + ` was found in the program.None
+Timestamp: 2025-02-03 00:35:47.444171
 
 Status: PASSED!
 Check: 5
 Test: Did not hard code values into the program
 Reason: 69079.36 + ` was found in the program.None
-Timestamp: 2025-02-03 00:31:59.578033
+Timestamp: 2025-02-03 00:35:47.444478
