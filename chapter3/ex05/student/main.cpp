@@ -38,9 +38,9 @@ int main()
     inputFile >> i3;
 
     // write to output file
-    outputFile << fn1 << " " << ln1 << " " << fixed << setprecision(2) << s1 * (double(1) + (i1 / double(100))) << '\n';
-    outputFile << fn2 << " " << ln2 << " " << fixed << setprecision(2) << s2 * (double(1) + (i2 / double(100))) << '\n';
-    outputFile << fn3 << " " << ln3 << " " << fixed << setprecision(2) << s3 * (double(1) + (i3 / double(100)));
+    outputFile << ln1 << " " << fn1 << " " << fixed << setprecision(2) << s1 * (double(1) + (i1 / double(100))) << '\n';
+    outputFile << ln2 << " " << fn2 << " " << fixed << setprecision(2) << s2 * (double(1) + (i2 / double(100))) << '\n';
+    outputFile << ln3 << " " << fn3 << " " << fixed << setprecision(2) << s3 * (double(1) + (i3 / double(100)));
 
     // close files
     inputFile.close();
