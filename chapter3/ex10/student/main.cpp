@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -24,7 +25,7 @@ int main()
     const int treeCount = yardLength / (treeSpace + treeRadius * 2);
     const double treeArea = pi * pow(treeRadius, 2);
 
-    cout << treeCount << " trees taking " << treeArea << " units of space" << endl;
+    cout << treeCount << " trees taking " << fixed << setprecision(2) << treeArea * treeCount << " units of space" << endl;
 
     return 0;
 }
