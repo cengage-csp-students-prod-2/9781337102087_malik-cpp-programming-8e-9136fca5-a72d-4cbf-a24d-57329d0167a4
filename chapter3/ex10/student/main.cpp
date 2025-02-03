@@ -24,7 +24,7 @@ int main()
     const int treeCount = yardLength / (treeSpace + treeRadius * 2);
     const double treeArea = pi * pow(treeRadius, 2);
 
-    cout << treeCount << " trees taking " << treeArea << " units of space";
+    cout << treeCount << " trees taking " << treeArea << " units of space" << endl;
 
     return 0;
 }
