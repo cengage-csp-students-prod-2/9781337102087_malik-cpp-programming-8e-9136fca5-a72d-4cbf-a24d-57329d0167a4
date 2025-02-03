@@ -22,7 +22,7 @@ int main()
     const double cylinderVolume = pi * pow(cylinderRadius, 2) * cylinderHeight;
     const double cubeSideLength = cbrt(cylinderVolume);
 
-    cout << "Cube side length: " << cubeSideLength << " units";
+    cout << "Cube side length: " << fixed << setprecision(2) << cubeSideLength << " units";
 
     // Write your main here
     return 0;
