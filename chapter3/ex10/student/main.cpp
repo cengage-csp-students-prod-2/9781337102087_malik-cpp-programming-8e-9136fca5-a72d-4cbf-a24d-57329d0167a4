@@ -17,11 +17,11 @@ int main()
     cin >> yardLength;
     cout << "Tree radius: ";
     cin >> treeRadius;
-    cout << "Space between each tree";
+    cout << "Space between each tree: ";
     cin >> treeSpace;
 
     // run calculations
-    const int treeCount = yardLength / treeSpace;
+    const int treeCount = yardLength / (treeSpace + treeRadius * 2);
     const int treeArea = pi * pow(treeRadius, 2);
 
     cout << treeCount << " trees taking " << treeArea << "units of space";
