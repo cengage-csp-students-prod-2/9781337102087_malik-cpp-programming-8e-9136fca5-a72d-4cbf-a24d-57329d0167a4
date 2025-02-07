@@ -1,27 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Positive test 1
-Reason: Unable to find '['positive']' in the program's output.
-Number: Positive
-.
-Error : AssertionError - Unable to find positive in the program's output.
-Timestamp: 2025-02-07 21:09:31.284157
+Reason: None
+Timestamp: 2025-02-07 21:10:21.198170
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Negative test 1
-Reason: Unable to find '['negative']' in the program's output.
-Number: Negative
-.
-Error : AssertionError - Unable to find negative in the program's output.
-Timestamp: 2025-02-07 21:09:31.287206
+Reason: None
+Timestamp: 2025-02-07 21:10:21.201452
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: zero test 1
-Reason: Unable to find '['zero']' in the program's output.
-Number: Zero
-.
-Error : AssertionError - Unable to find zero in the program's output.
-Timestamp: 2025-02-07 21:09:31.290100
+Reason: None
+Timestamp: 2025-02-07 21:10:21.205488
