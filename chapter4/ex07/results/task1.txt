@@ -3,25 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Complex roots case 1
 Reason: None
-Timestamp: 2025-02-08 23:41:25.295871
+Timestamp: 2025-02-08 23:42:17.922606
 
 Status: PASSED!
 Check: 2
 Test: Distinct real roots case 1
 Reason: None
-Timestamp: 2025-02-08 23:41:25.299803
+Timestamp: 2025-02-08 23:42:17.925081
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Repeated roots case 1
-Reason: Unable to find '['repeated', '-0.50']' in the program's output.
-repeated -0.5
-.
-Error : AssertionError - Unable to find -0.50 in the program's output.
-Timestamp: 2025-02-08 23:41:25.303763
+Reason: None
+Timestamp: 2025-02-08 23:42:17.927249
 
 Status: PASSED!
 Check: 4
 Test: Distinct real roots case 2
 Reason: None
-Timestamp: 2025-02-08 23:41:25.307734
+Timestamp: 2025-02-08 23:42:17.929291
