@@ -5,14 +5,12 @@ using namespace std;
 int main()
 {
     // get numbers
-    int inNum1, inNum2, inNum3;
+    int num1, num2, num3;
     int used = 0;
 
-    cin >> inNum1 >> inNum2 >> inNum3;
+    cin >> num1 >> num2 >> num3;
 
     // sort numbers
-    int num1, num2, num3;
-
     if (num1 > num2 && num2 > num3)
     {
         cout << num1 << " " << num2 << " " << num3;
