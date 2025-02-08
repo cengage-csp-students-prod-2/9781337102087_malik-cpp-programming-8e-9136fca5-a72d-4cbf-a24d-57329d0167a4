@@ -8,7 +8,7 @@ int main()
     int num1, num2, num3;
     int used = 0;
 
-    cin >> num1 >> num2 >> num3;
+    cin >> num3 >> num2 >> num1;
 
     // sort numbers
     if (num1 > num2 && num2 > num3)
