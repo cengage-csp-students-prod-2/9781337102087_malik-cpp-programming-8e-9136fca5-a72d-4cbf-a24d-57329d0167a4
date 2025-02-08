@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     // get input
     int input;
+    cout << "Enter an integer between 0 and 35: ";
     cin >> input;
 
     if (input < 10) {
