@@ -3,30 +3,34 @@ Status: FAILED!
 Check: 1
 Test: All positive in order case 1
 Reason: Unable to find '['2 99 134']' in the program's output.
-6.95267e-310 6.92116e-310 6.92116e-310.
+
+.
 Error : AssertionError - Unable to find 2 99 134 in the program's output.
-Timestamp: 2025-02-08 21:38:17.669246
+Timestamp: 2025-02-08 21:39:36.011520
 
 Status: FAILED!
 Check: 2
 Test: All positive not in order case 1
 Reason: Unable to find '['732 803 839']' in the program's output.
-6.95279e-310 6.93012e-310 6.93012e-310.
+
+.
 Error : AssertionError - Unable to find 732 803 839 in the program's output.
-Timestamp: 2025-02-08 21:38:17.671335
+Timestamp: 2025-02-08 21:39:36.013568
 
 Status: FAILED!
 Check: 3
 Test: All negative not in order case 1
 Reason: Unable to find '['-503 -489 -89']' in the program's output.
-6.95276e-310 6.94141e-310 6.94141e-310.
+
+.
 Error : AssertionError - Unable to find -503 -489 -89 in the program's output.
-Timestamp: 2025-02-08 21:38:17.673322
+Timestamp: 2025-02-08 21:39:36.015764
 
 Status: FAILED!
 Check: 4
 Test: Positive, negative and zero case 1 
 Reason: Unable to find '['-3435 0 8943']' in the program's output.
-6.95253e-310 6.94475e-310 6.94475e-310.
+
+.
 Error : AssertionError - Unable to find -3435 0 8943 in the program's output.
-Timestamp: 2025-02-08 21:38:17.675296
+Timestamp: 2025-02-08 21:39:36.017763
