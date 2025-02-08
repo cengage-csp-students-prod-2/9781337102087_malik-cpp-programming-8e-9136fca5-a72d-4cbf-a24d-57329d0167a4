@@ -15,13 +15,19 @@ int main()
     if (discriminant == 0)
     {
         cout << "repeated ";
-        const double root = -b / (2 * a);
+        const double root = -b / (2.0 * a);
         cout << root;
     }
     else if (discriminant > 0)
     {
-        const double root1 = (-b + pow(discriminant, -1)) / 2 * a;
-        const double root2 = (-b - pow(discriminant, -1)) / 2 * a;
+        cout << "real ";
+        const double root1 = (-b + sqrt(discriminant)) / 2 * a;
+        const double root2 = (-b - sqrt(discriminant)) / 2 * a;
         cout << root1 << ", " << root2;
+    } else {
+        cout << "complex";
     }
+    cout << endl;
+
+    return 0;
 }
