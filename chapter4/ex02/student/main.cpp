@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
     // get numbers
-    double inNum1, inNum2, inNum3;
+    int inNum1, inNum2, inNum3;
     int used = 0;
 
     cin >> inNum1 >> inNum2 >> inNum3;
 
     // sort numbers
-    double num1, num2, num3;
+    int num1, num2, num3;
 
     if (num1 > num2 && num2 > num3)
     {
@@ -37,6 +37,7 @@ int main()
     {
         cout << num3 << " " << num2 << " " << num1;
     }
+    cout << endl;
 
     return 0;
 }
