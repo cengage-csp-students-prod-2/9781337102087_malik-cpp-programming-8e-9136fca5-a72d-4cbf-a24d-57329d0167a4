@@ -1,0 +1,8 @@
+
+Status: FAILED!
+Check: 1
+Test: Prompt the user to enter an integer between 0 and 35
+Reason: Unable to find 'Enter an integer between 0 and 35:
+    cout << "Enter an integer between 0 and 35:' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-08 22:35:39.511645
