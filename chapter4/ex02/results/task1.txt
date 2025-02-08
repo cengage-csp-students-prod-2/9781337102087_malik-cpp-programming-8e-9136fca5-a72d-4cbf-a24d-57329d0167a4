@@ -1,36 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: All positive in order case 1
-Reason: Unable to find '['2 99 134']' in the program's output.
-134 99 2
-.
-Error : AssertionError - Unable to find 2 99 134 in the program's output.
-Timestamp: 2025-02-08 21:41:47.491430
+Reason: None
+Timestamp: 2025-02-08 21:43:19.931737
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: All positive not in order case 1
-Reason: Unable to find '['732 803 839']' in the program's output.
-839 803 732
-.
-Error : AssertionError - Unable to find 732 803 839 in the program's output.
-Timestamp: 2025-02-08 21:41:47.493487
+Reason: None
+Timestamp: 2025-02-08 21:43:19.933831
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: All negative not in order case 1
-Reason: Unable to find '['-503 -489 -89']' in the program's output.
--89 -489 -503
-.
-Error : AssertionError - Unable to find -503 -489 -89 in the program's output.
-Timestamp: 2025-02-08 21:41:47.495286
+Reason: None
+Timestamp: 2025-02-08 21:43:19.936104
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Positive, negative and zero case 1 
-Reason: Unable to find '['-3435 0 8943']' in the program's output.
-8943 0 -3435
-.
-Error : AssertionError - Unable to find -3435 0 8943 in the program's output.
-Timestamp: 2025-02-08 21:41:47.497226
+Reason: None
+Timestamp: 2025-02-08 21:43:19.938929
