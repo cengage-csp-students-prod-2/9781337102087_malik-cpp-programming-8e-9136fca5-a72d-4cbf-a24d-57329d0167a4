@@ -14,7 +14,8 @@ int main()
 
     if (discriminant == 0)
     {
-        const double root = -b / 2 * a;
+        cout << "repeated ";
+        const double root = -b / (2 * a);
         cout << root;
     }
     else if (discriminant > 0)
