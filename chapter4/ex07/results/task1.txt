@@ -1,32 +1,33 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Complex roots case 1
-Reason: Unable to find '['complex']' in the program's output.
-.
-Error : AssertionError - Unable to find complex in the program's output.
-Timestamp: 2025-02-08 23:31:37.671215
+Reason: None
+Timestamp: 2025-02-08 23:36:02.565472
 
 Status: FAILED!
 Check: 2
 Test: Distinct real roots case 1
 Reason: Unable to find '['real', '-0.59', '-3.41']' in the program's output.
--1.9375, -2.0625.
-Error : AssertionError - Unable to find real in the program's output.
-Timestamp: 2025-02-08 23:31:37.675292
+real -0.585786, -3.41421
+.
+Error : AssertionError - Unable to find -0.59 in the program's output.
+Timestamp: 2025-02-08 23:36:02.567569
 
 Status: FAILED!
 Check: 3
 Test: Repeated roots case 1
 Reason: Unable to find '['repeated', '-0.50']' in the program's output.
-repeated 0.
+repeated -0.5
+.
 Error : AssertionError - Unable to find -0.50 in the program's output.
-Timestamp: 2025-02-08 23:31:37.679294
+Timestamp: 2025-02-08 23:36:02.569593
 
 Status: FAILED!
 Check: 4
 Test: Distinct real roots case 2
 Reason: Unable to find '['real', '-0.29', ' -1.71']' in the program's output.
--3.875, -4.125.
-Error : AssertionError - Unable to find real in the program's output.
-Timestamp: 2025-02-08 23:31:37.682908
+real -1.17157, -6.82843
+.
+Error : AssertionError - Unable to find -0.29 in the program's output.
+Timestamp: 2025-02-08 23:36:02.571618
