@@ -13,6 +13,8 @@ int main()
     data >> balance;
     data.close();
 
+    cout << fixed << setprecision(2);
+
     cout << "Balance: $" << balance << endl;
 
     // return if insufficient funds
