@@ -1,28 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **0.10** stored as constant
-Reason: Unable to find 'const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-10 04:01:51.720345
+Reason: const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10; + ` was found in the program.None
+Timestamp: 2025-02-10 04:02:57.914904
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: **0.20** stored as a constant
-Reason: Unable to find 'const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-10 04:01:51.721106
+Reason: const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20; + ` was found in the program.None
+Timestamp: 2025-02-10 04:02:57.915526
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: **0.30** stored as a constant
-Reason: Unable to find 'const double THIRTY_OR_MORE_ROOMS_DISC = 0.30;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-10 04:01:51.721733
+Reason: const double THIRTY_OR_MORE_ROOMS_DISC = 0.30; + ` was found in the program.None
+Timestamp: 2025-02-10 04:02:57.916003
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: **0.05** stored as a constant
-Reason: Unable to find 'const double THREE_DAYS_ROOM_DISC = 0.05;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-10 04:01:51.722410
+Reason: const double THREE_DAYS_ROOM_DISC = 0.05; + ` was found in the program.None
+Timestamp: 2025-02-10 04:02:57.916533
