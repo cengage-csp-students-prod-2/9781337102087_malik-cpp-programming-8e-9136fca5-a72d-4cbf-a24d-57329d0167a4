@@ -14,15 +14,15 @@ int main()
 
     if (op == '+')
     {
-        cout << num1 + num2;
+        cout << num1 << " + " << num2 << " = " << num1 + num2;
     }
     else if (op == '-')
     {
-        cout << num1 - num2;
+        cout << num1 << " - " << num2 << " = " << num1 - num2;
     }
     else if (op == '*')
     {
-        cout << num1 * num2;
+        cout << num1 << " * " << num2 << " = " << num1 * num2;
     }
     else if (op == '/')
     {
@@ -32,7 +32,7 @@ int main()
             return 0;
         }
 
-        cout << num1 / num2;
+        cout << num1 << " / " << num2 << " = " << num1 / num2;
     }
     else
     {
