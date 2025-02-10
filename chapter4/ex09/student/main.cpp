@@ -28,7 +28,7 @@ int main()
     {
         if (num2 == 0.0)
         {
-            cout << "Error";
+            cout << "Error" << endl;
             return 0;
         }
 
