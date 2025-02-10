@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // get input
-    float num1, num2;
+    double num1, num2;
     char op;
 
     cin >> num1 >> op >> num2;
