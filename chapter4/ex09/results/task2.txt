@@ -1,0 +1,36 @@
+
+Status: FAILED!
+Check: 1
+Test: Division test 1
+Reason: Unable to find '['17.42']' in the program's output.
+Invalid operator
+.
+Error : AssertionError - Unable to find a number close enough to 17.42 (+/-0.00) in the program's output.
+Timestamp: 2025-02-10 02:41:25.879613
+
+Status: FAILED!
+Check: 2
+Test: Multiplication test 1
+Reason: Unable to find '['52.38']' in the program's output.
+Invalid operator
+.
+Error : AssertionError - Unable to find a number close enough to 52.38 (+/-0.00) in the program's output.
+Timestamp: 2025-02-10 02:41:25.881659
+
+Status: FAILED!
+Check: 3
+Test: Subtraction test 1
+Reason: Unable to find '['34.42']' in the program's output.
+Invalid operator
+.
+Error : AssertionError - Unable to find a number close enough to 34.42 (+/-0.00) in the program's output.
+Timestamp: 2025-02-10 02:41:25.883681
+
+Status: FAILED!
+Check: 4
+Test: Addition test 1
+Reason: Unable to find '['3520.78']' in the program's output.
+Invalid operator
+.
+Error : AssertionError - Unable to find a number close enough to 3520.78 (+/-0.00) in the program's output.
+Timestamp: 2025-02-10 02:41:25.885664
