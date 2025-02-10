@@ -1,28 +1,28 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-02-10 03:59:24.129618
+Test: **0.10** stored as constant
+Reason: Unable to find 'const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-10 04:00:54.927763
 
 Status: FAILED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-02-10 03:59:24.130916
+Test: **0.20** stored as a constant
+Reason: Unable to find 'const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-10 04:00:54.928213
 
 Status: FAILED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-02-10 03:59:24.131002
+Test: **0.30** stored as a constant
+Reason: Unable to find 'const double THIRTY_OR_MORE_ROOMS_DISC = 0.30;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-10 04:00:54.928603
 
 Status: FAILED!
 Check: 4
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-02-10 03:59:24.131070
+Test: **0.05** stored as a constant
+Reason: Unable to find 'const double THREE_DAYS_ROOM_DISC = 0.05;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-10 04:00:54.928969
