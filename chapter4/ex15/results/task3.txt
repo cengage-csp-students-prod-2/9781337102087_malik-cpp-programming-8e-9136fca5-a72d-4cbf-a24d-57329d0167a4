@@ -1,0 +1,17 @@
+
+Status: FAILED!
+Check: 1
+Test: 300 to 500 case 1
+Reason: Unable to find '['750', '429.2', '0.8']' in the program's output.
+Balance: $750
+Withdrawing: $
+.
+Error : AssertionError - Unable to find a number close enough to 429.2 (+/-0.00) in the program's output.
+Timestamp: 2025-02-10 03:19:18.135976
+
+Status: FAILED!
+Check: 2
+Test: 300 to 500 case 1 final account balance
+Reason: Unable to find '429.20' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-10 03:19:18.136171
