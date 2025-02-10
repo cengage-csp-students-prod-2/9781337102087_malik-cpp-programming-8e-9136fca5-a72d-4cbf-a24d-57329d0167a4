@@ -64,7 +64,7 @@ int main()
     // take balance
     balance -= withdraw + fees;
     cout << endl
-         << "Withdrew $" << withdraw << " for $" << withdraw + fees;
+         << "Withdrew $" << withdraw << " for $" << withdraw + fees << " ($" << fees << " fee)";
     cout << endl
          << "New balance: $" << balance - withdraw - fees;
 
