@@ -4,25 +4,25 @@ Check: 1
 Test: **0.10** stored as constant
 Reason: Unable to find 'const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10;' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-10 04:00:54.927763
+Timestamp: 2025-02-10 04:01:51.720345
 
 Status: FAILED!
 Check: 2
 Test: **0.20** stored as a constant
 Reason: Unable to find 'const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20;' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-10 04:00:54.928213
+Timestamp: 2025-02-10 04:01:51.721106
 
 Status: FAILED!
 Check: 3
 Test: **0.30** stored as a constant
 Reason: Unable to find 'const double THIRTY_OR_MORE_ROOMS_DISC = 0.30;' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-10 04:00:54.928603
+Timestamp: 2025-02-10 04:01:51.721733
 
 Status: FAILED!
 Check: 4
 Test: **0.05** stored as a constant
 Reason: Unable to find 'const double THREE_DAYS_ROOM_DISC = 0.05;' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-10 04:00:54.928969
+Timestamp: 2025-02-10 04:01:51.722410
