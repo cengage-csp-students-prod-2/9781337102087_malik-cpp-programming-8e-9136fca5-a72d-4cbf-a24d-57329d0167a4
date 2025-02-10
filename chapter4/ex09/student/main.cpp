@@ -17,12 +17,14 @@ int main() {
         cout << num1 - num2;
     } else if (op == '*') {
         cout << num1 * num2;
-    } else {
+    } else if (op == '/') {
         if (num2 == 0.0) {
             cout << "error";
             return 0;
         }
 
         cout << num1 / num2;
+    } else {
+        cout << "Invalid operator";
     }
 }
