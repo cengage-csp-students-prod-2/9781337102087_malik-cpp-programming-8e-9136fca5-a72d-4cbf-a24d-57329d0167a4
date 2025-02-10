@@ -52,7 +52,8 @@ int main()
 
     // add service charge
     if (withdraw > 300) {
-        fees += withdraw * 0.04;
+        double overage = withdraw - 300;
+        fees += overage * 0.04;
     }
 
     // take balance
