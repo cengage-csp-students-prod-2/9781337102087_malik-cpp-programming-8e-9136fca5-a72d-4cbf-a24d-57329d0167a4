@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     // Constants for discounts
-    const double TEN_TO_NINTEEN_ROOMS_DIS = 10.0;
-    const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 20.0;
-    const double THIRTY_OR_MORE_ROOMS_DISC = 30.0;
-    const double THREE_DAYS_ROOM_DISC = 5.0;
+    const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10;
+    const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20;
+    const double THIRTY_OR_MORE_ROOMS_DISC = 0.30;
+    const double THREE_DAYS_ROOM_DISC = 0.05;
 
     // Input variables
     double roomCost;
@@ -31,14 +31,14 @@ int main()
     double discountPercent = 0.0;
 
     if (roomsBooked >= 30)
-        discountPercent = THIRTY_OR_MORE_ROOMS_DISC;
+        discountPercent = THIRTY_OR_MORE_ROOMS_DISC * 100;
     else if (roomsBooked >= 20)
-        discountPercent = TWENTY_TO_TWENTYNINE_ROOMS_DIS;
+        discountPercent = TWENTY_TO_TWENTYNINE_ROOMS_DIS * 100;
     else if (roomsBooked >= 10)
-        discountPercent = TEN_TO_NINTEEN_ROOMS_DIS;
+        discountPercent = TEN_TO_NINTEEN_ROOMS_DIS * 100;
 
     if (bookingDuration >= 3)
-        discountPercent += THREE_DAYS_ROOM_DISC;
+        discountPercent += THREE_DAYS_ROOM_DISC * 100;
 
     // Apply discount to room cost
     double discountedRoomCost = roomCost * (1 - discountPercent / 100.0);
