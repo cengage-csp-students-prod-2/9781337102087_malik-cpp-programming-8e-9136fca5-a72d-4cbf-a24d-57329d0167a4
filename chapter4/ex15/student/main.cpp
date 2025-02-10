@@ -68,7 +68,7 @@ int main()
     cout << endl
          << "Withdrew $" << withdraw << " for $" << withdraw + fees << " ($" << fees << " fee)";
     cout << endl
-         << "New balance: $" << balance - withdraw - fees;
+         << "New balance: $" << balance;
 
     // write to file
     ofstream outFile;
