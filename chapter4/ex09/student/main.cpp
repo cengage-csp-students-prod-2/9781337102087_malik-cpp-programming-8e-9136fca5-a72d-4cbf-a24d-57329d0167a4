@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     // get input
     double num1, num2;
     char op;
@@ -11,20 +12,33 @@ int main() {
     cin >> num1 >> op >> num2;
     cout << fixed << setprecision(2);
 
-    if (op == '+') {
+    if (op == '+')
+    {
         cout << num1 + num2;
-    } else if (op == '-') {
+    }
+    else if (op == '-')
+    {
         cout << num1 - num2;
-    } else if (op == '*') {
+    }
+    else if (op == '*')
+    {
         cout << num1 * num2;
-    } else if (op == '/') {
-        if (num2 == 0.0) {
-            cout << "error";
+    }
+    else if (op == '/')
+    {
+        if (num2 == 0.0)
+        {
+            cout << "Error";
             return 0;
         }
 
         cout << num1 / num2;
-    } else {
+    }
+    else
+    {
         cout << "Invalid operator";
     }
+    cout << endl;
+
+    return 0;
 }
