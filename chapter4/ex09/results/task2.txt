@@ -6,7 +6,7 @@ Reason: Unable to find '['17.42']' in the program's output.
 Invalid operator
 .
 Error : AssertionError - Unable to find a number close enough to 17.42 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 02:35:28.974279
+Timestamp: 2025-02-10 02:37:08.318669
 
 Status: FAILED!
 Check: 2
@@ -15,7 +15,7 @@ Reason: Unable to find '['52.38']' in the program's output.
 Invalid operator
 .
 Error : AssertionError - Unable to find a number close enough to 52.38 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 02:35:28.976324
+Timestamp: 2025-02-10 02:37:08.320709
 
 Status: FAILED!
 Check: 3
@@ -24,7 +24,7 @@ Reason: Unable to find '['34.42']' in the program's output.
 Invalid operator
 .
 Error : AssertionError - Unable to find a number close enough to 34.42 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 02:35:28.978347
+Timestamp: 2025-02-10 02:37:08.322732
 
 Status: FAILED!
 Check: 4
@@ -33,4 +33,4 @@ Reason: Unable to find '['3520.78']' in the program's output.
 Invalid operator
 .
 Error : AssertionError - Unable to find a number close enough to 3520.78 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 02:35:28.980355
+Timestamp: 2025-02-10 02:37:08.324727
