@@ -9,7 +9,7 @@ int main() {
     char op;
 
     cin >> num1 >> op >> num2;
-    cout << endl << fixed << setprecision(2);
+    cout << fixed << setprecision(2);
 
     if (op == '+') {
         cout << num1 + num2;
