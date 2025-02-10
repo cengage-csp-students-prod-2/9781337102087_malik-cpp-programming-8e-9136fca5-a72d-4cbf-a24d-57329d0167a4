@@ -6,8 +6,5 @@
         "**/*.csproj": true,
         "**/bin": true,
         "**/obj": true
-    },
-    "files.associations": {
-        "iostream": "cpp"
     }
 }
