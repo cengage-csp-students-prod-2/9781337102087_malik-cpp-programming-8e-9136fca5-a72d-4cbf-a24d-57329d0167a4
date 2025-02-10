@@ -1,36 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Decreasing test 1
-Reason: Unable to find '['y = -3.00x + 13.00', 'decreasing']' in the program's output.
-decreasing
--3.00.
-Error : AssertionError - Unable to find y = -3.00x + 13.00 in the program's output.
-Timestamp: 2025-02-10 04:34:07.540500
+Reason: None
+Timestamp: 2025-02-10 05:07:55.786668
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Increasing test 1
-Reason: Unable to find '['y = 1.00x + 0.00', 'increasing']' in the program's output.
-increasing
-1.00.
-Error : AssertionError - Unable to find y = 1.00x + 0.00 in the program's output.
-Timestamp: 2025-02-10 04:34:07.544859
+Reason: None
+Timestamp: 2025-02-10 05:07:55.788716
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Vertical test 1
-Reason: Unable to find '['x = 2.00', 'vertical']' in the program's output.
-verticaldecreasing
--inf.
-Error : AssertionError - Unable to find x = 2.00 in the program's output.
-Timestamp: 2025-02-10 04:34:07.547816
+Reason: None
+Timestamp: 2025-02-10 05:07:55.790705
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Horizontal test 1
-Reason: Unable to find '['y = 0.00x + 11.00', 'horizontal']' in the program's output.
-horizontal
--0.00.
-Error : AssertionError - Unable to find y = 0.00x + 11.00 in the program's output.
-Timestamp: 2025-02-10 04:34:07.550797
+Reason: None
+Timestamp: 2025-02-10 05:07:55.792704
