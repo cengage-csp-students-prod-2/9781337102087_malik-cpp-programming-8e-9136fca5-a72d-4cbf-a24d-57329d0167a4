@@ -5,33 +5,24 @@
 using namespace std;
 
 int main() {
-    // get coords
     double x1, y1, x2, y2;
     cin >> x1 >> y1 >> x2 >> y2;
 
     cout << fixed << setprecision(2);
 
     if (x1 == x2) {
-        cout << "vertical";
+        cout << "x = " << x1 << "\nvertical";
+    } else if (y1 == y2) {
+        cout << "y = 0.00x + " << y1 << "\nhorizontal";
+    } else {
+        double slope = (y2 - y1) / (x2 - x1);
+        double intercept = y1 - slope * x1;
+        cout << "y = " << slope << "x + " << intercept << "\n";
+        if (slope > 0) {
+            cout << "increasing";
+        } else {
+            cout << "decreasing";
+        }
     }
-    if (y1 == y2) {
-        cout << "horizontal";
-    }
-
-    const double rise = y1 - y2;
-    const double run = x1 - x2;
-
-    const double slope = rise / run;
-
-    if (slope > 0) {
-        cout << "increasing";
-    } else if (slope < 0) {
-        cout << "decreasing";
-    }
-
-    cout << endl;
-
-    cout << slope;
-
     return 0;
 }
