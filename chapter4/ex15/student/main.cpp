@@ -37,27 +37,36 @@ int main()
 
     // check if overdraft
     double fees = 0;
-    if (withdraw > balance) {
+    if (withdraw > balance)
+    {
         cout << "The amount you are trying to withdraw exceeds your account balance. Would you like to withdraw anyways for a $25 fee? [Y/N] ";
         char overdraft;
         cin >> overdraft;
         cout << endl;
-        if (overdraft == 'Y') {
+        if (overdraft == 'Y')
+        {
             fees += 25;
-        } else {
+        }
+        else
+        {
             cout << "Insufficient funds.";
             return 0;
         }
     }
 
     // add service charge
-    if (withdraw > 300) {
+    if (withdraw > 300)
+    {
         double overage = withdraw - 300;
         fees += overage * 0.04;
     }
 
     // take balance
     balance -= withdraw + fees;
+    cout << endl
+         << "Withdrew $" << withdraw << " for $" << withdraw + fees;
+    cout << endl
+         << "New balance: $" << balance - withdraw - fees;
 
     // write to file
     ofstream outFile;
