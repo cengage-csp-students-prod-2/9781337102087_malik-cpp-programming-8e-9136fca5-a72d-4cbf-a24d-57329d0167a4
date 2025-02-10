@@ -3,16 +3,16 @@ Status: FAILED!
 Check: 1
 Test: Sufficient funds case 1
 Reason: Unable to find '['750', '450.0', '0.0']' in the program's output.
-Balance: $750
+Balance: $750.00
 Withdrawing: $
 
-Withdrew $300 for $300 ($0 fee)
-New balance: $150.
+Withdrew $300.00 for $300.00 ($0.00 fee)
+New balance: $150.00.
 Error : AssertionError - Unable to find a number close enough to 450.0 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 03:28:40.076060
+Timestamp: 2025-02-10 03:32:22.850244
 
 Status: PASSED!
 Check: 2
 Test: Sufficient funds case 1 final account balance
 Reason: 450.00 + ` was found in the program.None
-Timestamp: 2025-02-10 03:28:40.076288
+Timestamp: 2025-02-10 03:32:22.850558
