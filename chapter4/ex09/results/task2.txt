@@ -5,7 +5,7 @@ Test: Division test 1
 Reason: Unable to find '['17.42']' in the program's output.
 432.19.
 Error : AssertionError - Unable to find a number close enough to 17.42 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 01:23:05.311118
+Timestamp: 2025-02-10 02:20:32.406878
 
 Status: FAILED!
 Check: 2
@@ -13,7 +13,7 @@ Test: Multiplication test 1
 Reason: Unable to find '['52.38']' in the program's output.
 7.71.
 Error : AssertionError - Unable to find a number close enough to 52.38 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 01:23:05.313253
+Timestamp: 2025-02-10 02:20:32.410910
 
 Status: FAILED!
 Check: 3
@@ -21,7 +21,7 @@ Test: Subtraction test 1
 Reason: Unable to find '['34.42']' in the program's output.
 22.62.
 Error : AssertionError - Unable to find a number close enough to 34.42 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 01:23:05.315299
+Timestamp: 2025-02-10 02:20:32.414905
 
 Status: FAILED!
 Check: 4
@@ -29,4 +29,4 @@ Test: Addition test 1
 Reason: Unable to find '['3520.78']' in the program's output.
 -2.35.
 Error : AssertionError - Unable to find a number close enough to 3520.78 (+/-0.00) in the program's output.
-Timestamp: 2025-02-10 01:23:05.317304
+Timestamp: 2025-02-10 02:20:32.418803
