@@ -1,10 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Second number smaller test 1
-Reason: Unable to find '['33', '20']' in the program's output.
-Enter two integers: Multiples of 3: 33
-Multiples of 5: 19
-.
-Error : AssertionError - Unable to find a number close enough to 20 (+/-0.00) in the program's output.
-Timestamp: 2025-02-15 21:49:13.308939
+Reason: None
+Timestamp: 2025-02-15 21:49:52.271296
