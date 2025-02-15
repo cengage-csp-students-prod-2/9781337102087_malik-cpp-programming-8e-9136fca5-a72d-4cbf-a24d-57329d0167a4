@@ -23,10 +23,22 @@ int main()
     }
 
     // iterate through ints between input
+    int multiplesOfThree = 0, multiplesOfFive = 0;
+
     for (int i = numMin + 1; i < numMax; i++)
     {
-        cout << i << endl;
+        if (i % 3 == 0)
+        {
+            multiplesOfThree += 1;
+        }
+        if (i % 5 == 0)
+        {
+            multiplesOfFive += 1;
+        }
     }
+
+    cout << "Multiples of 3: " << multiplesOfThree << endl;
+    cout << "Multiples of 5: " << multiplesOfFive << endl;
 
     return 0;
 }
