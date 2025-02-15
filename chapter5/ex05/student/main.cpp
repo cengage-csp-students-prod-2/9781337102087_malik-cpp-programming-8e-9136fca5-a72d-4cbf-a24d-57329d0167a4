@@ -22,10 +22,10 @@ int main()
         numMax = num1;
     }
 
-    // iterate through ints between input
+    // iterate through numbers
     int multiplesOfThree = 0, multiplesOfFive = 0;
 
-    for (int i = numMin + 1; i < numMax; i++)
+    for (int i = numMin; i <= numMax; i++)
     {
         if (i % 3 == 0)
         {
