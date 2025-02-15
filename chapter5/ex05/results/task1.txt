@@ -1,0 +1,29 @@
+
+Status: FAILED!
+Check: 1
+Test: First number smaller test 1
+Reason: Unable to find '['5', '3']' in the program's output.
+Enter two integers: 8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+.
+Error : AssertionError - Unable to find a number close enough to 5 (+/-0.00) in the program's output.
+Timestamp: 2025-02-15 21:45:12.307977
+
+Status: PASSED!
+Check: 2
+Test: First number smaller test 2
+Reason: None
+Timestamp: 2025-02-15 21:45:12.586553
