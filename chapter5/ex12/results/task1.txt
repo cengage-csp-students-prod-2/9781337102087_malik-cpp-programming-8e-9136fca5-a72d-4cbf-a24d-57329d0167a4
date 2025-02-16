@@ -21,10 +21,10 @@ Year 16: 15040, 15969
 Year 17: 21657, 20760
 Town A's population surpasses town B's in year 17 with 21657 compared to 20760.
 Error : AssertionError - Unable to find 21080 in the program's output.
-Timestamp: 2025-02-16 14:54:42.590570
+Timestamp: 2025-02-16 14:55:39.895832
 
 Status: PASSED!
 Check: 2
 Test: Test case 2
 Reason: None
-Timestamp: 2025-02-16 14:54:42.592852
+Timestamp: 2025-02-16 14:55:39.898059
