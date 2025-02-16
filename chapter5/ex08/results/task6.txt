@@ -4,17 +4,17 @@ Check: 1
 Test: Output sum of odd numbers squared (Part e)
 Reason: Unable to find '['7760']' in the program's output.
 Enter two integers: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 
-Total odd numbers: 16, sum 320
+Total odd numbers: 16, sum of even numbers 340
 .
 Error : AssertionError - Unable to find a number close enough to 7760 (+/-0.00) in the program's output.
-Timestamp: 2025-02-16 14:22:17.805059
+Timestamp: 2025-02-16 14:24:40.431931
 
 Status: FAILED!
 Check: 2
 Test: Output sum of odd numbers squared case 2 (Part e)
 Reason: Unable to find '['7904456']' in the program's output.
 Enter two integers: 987 989 991 993 995 997 999 1001 
-Total odd numbers: 8, sum 7952
+Total odd numbers: 8, sum of even numbers 6958
 .
 Error : AssertionError - Unable to find a number close enough to 7904456 (+/-0.00) in the program's output.
-Timestamp: 2025-02-16 14:22:17.808959
+Timestamp: 2025-02-16 14:24:40.433950
