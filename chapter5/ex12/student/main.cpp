@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cmath>
-
 using namespace std;
 
 int main()
@@ -10,15 +8,15 @@ int main()
     cout << "Enter the population of towns A and B and the growth rates of towns A and B: ";
     cin >> initialPopA >> initialPopB >> rateA >> rateB;
 
-    int popA = 0, popB = 0;
+    int popA = initialPopA, popB = initialPopB;
 
     // run simulation
-    int year = 1;
+    int year = 0;
     while (true)
     {
         year += 1;
-        popA = initialPopA * pow(1 + (double)rateA / 100, year);
-        popB = initialPopB * pow(1 + (double)rateB / 100, year);
+        popA = popA * (1 + (double)rateA / 100);
+        popB = popB * (1 + (double)rateB / 100);
 
         cout << "Year " << year << ": " << popA << ", " << popB << endl;
 
