@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Output 1-10 squared (Part d)
 Reason: None
-Timestamp: 2025-02-16 14:30:07.907117
+Timestamp: 2025-02-16 14:30:46.900153
 
 Status: PASSED!
 Check: 2
 Test: Output 1-10 squared case 2 (Part d)
 Reason: None
-Timestamp: 2025-02-16 14:30:07.909588
+Timestamp: 2025-02-16 14:30:46.902239
