@@ -14,14 +14,16 @@ int main()
 
     // run simulation
     int year = 1;
-    while (true) {
+    while (true)
+    {
         year += 1;
-        popA = initialPopA * pow(1 + rateA / 100.0, year);
-        popB = initialPopB * pow(1 + rateB / 100.0, year);
+        popA = initialPopA * pow(1 + (double)rateA / 100, year);
+        popB = initialPopB * pow(1 + (double)rateB / 100, year);
 
         cout << "Year " << year << ": " << popA << ", " << popB << endl;
 
-        if (popA > popB) {
+        if (popA > popB)
+        {
             break;
         }
     }
