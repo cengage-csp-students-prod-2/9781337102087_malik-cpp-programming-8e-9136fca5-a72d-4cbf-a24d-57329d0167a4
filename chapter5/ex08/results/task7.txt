@@ -1,20 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Output uppercase letters (Part f)
-Reason: Unable to find '['A B C D E F G H I J K L M N O P Q R S T U V W X Y Z']' in the program's output.
-Enter two integers: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 
-Total odd numbers: 16, sum of even numbers 340
-.
-Error : AssertionError - Unable to find A B C D E F G H I J K L M N O P Q R S T U V W X Y Z in the program's output.
-Timestamp: 2025-02-16 14:24:40.435951
+Reason: None
+Timestamp: 2025-02-16 14:30:07.916544
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Output uppercase letters case 2 (Part f)
-Reason: Unable to find '['A B C D E F G H I J K L M N O P Q R S T U V W X Y Z']' in the program's output.
-Enter two integers: 987 989 991 993 995 997 999 1001 
-Total odd numbers: 8, sum of even numbers 6958
-.
-Error : AssertionError - Unable to find A B C D E F G H I J K L M N O P Q R S T U V W X Y Z in the program's output.
-Timestamp: 2025-02-16 14:24:40.437958
+Reason: None
+Timestamp: 2025-02-16 14:30:07.918779
