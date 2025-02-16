@@ -14,10 +14,11 @@ int main() {
         if (i % 2 == 1) {
             cout << i << " ";
             oddNumbers += 1;
+        } else {
             sum += i;
         }
         i++;
     }
 
-    cout << endl << "Total odd numbers: " << oddNumbers << ", sum " << sum << endl;
+    cout << endl << "Total odd numbers: " << oddNumbers << ", sum of even numbers " << sum << endl;
 }
