@@ -3,19 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Loan repaid test 2
 Reason: None
-Timestamp: 2025-02-19 20:55:24.389021
+Timestamp: 2025-02-19 20:56:07.282191
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Monthly payment too low test 1
-Reason: Unable to find '['Monthly payment is too low. The loan cannot be repaid.']' in the program's output.
-Loan amount: Annual interest rate (%): Monthly payment: The monthly payment is too low to repay the loan.
-.
-Error : AssertionError - Unable to find Monthly payment is too low. The loan cannot be repaid. in the program's output.
-Timestamp: 2025-02-19 20:55:24.391120
+Reason: None
+Timestamp: 2025-02-19 20:56:07.284481
 
 Status: PASSED!
 Check: 3
 Test: Loan repaid test 1
 Reason: None
-Timestamp: 2025-02-19 20:55:24.393248
+Timestamp: 2025-02-19 20:56:07.286838
