@@ -19,7 +19,7 @@ int main() {
 
     // check if monthly payment is too low
     if (monthlyPayment <= loanAmount * monthlyInterestRate) {
-        cout << "The monthly payment is too low to repay the loan." << endl;
+        cout << "Monthly payment is too low. The loan cannot be repaid." << endl;
         return 0;
     }
 
