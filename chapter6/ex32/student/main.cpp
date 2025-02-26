@@ -20,6 +20,8 @@ int gcd(int a, int b) {
     // run loop
     int greatestCommonDivisor;
     for (int i = 1; i <= largest; i++) {
+        // a lot of this type casting stuff is because i didn't want to find out whether it was needed
+        // it could be completely unnecessary 🤷
         double newA = static_cast<double>(a) / static_cast<double>(i);
         double newB = static_cast<double>(b) / static_cast<double>(i);
 
