@@ -11,44 +11,70 @@ void displayInformation()
     cout << "If you buy and pay for 6 or more personal training session today, the discount on each session is 20%." << endl;
 }
 
-int main()
+double calculateMembershipCost(double membershipPrice, int months, bool isSenior)
 {
-    // show info
-    displayInformation();
+    double cost = membershipPrice * months;
+    if (months == 12)
+    {
+        cost *= 0.85;
+    }
+    if (isSenior)
+    {
+        cost *= 0.7;
+    }
+    return cost;
+}
 
-    // get input
+double calculateTrainingCost(double trainingPrice, int sessions)
+{
+    if (sessions >= 5)
+    {
+        trainingPrice *= 0.8;
+    }
+    return trainingPrice * sessions;
+}
+
+void getUserInput(double &membershipPrice, double &trainingPrice, int &months, int &sessions, bool &isSenior)
+{
     cout << "Enter the cost of a regular membership per month: ";
-    double membershipPrice;
     cin >> membershipPrice;
 
     cout << endl
          << "Enter the cost of one personal training session: ";
-    double trainingPrice;
     cin >> trainingPrice;
 
     cout << endl
          << "Are you a senior citizen (Y,y/N,n): ";
     char seniorDiscountInput;
     cin >> seniorDiscountInput;
-    const bool seniorDiscount = tolower(seniorDiscountInput) == 'y';
+    isSenior = tolower(seniorDiscountInput) == 'y';
 
     cout << endl
          << "Enter the number of personal training sessions bought: ";
-    int trainingSessions;
-    cin >> trainingSessions;
-    const bool trainingDiscount = trainingSessions >= 6;
+    cin >> sessions;
 
     cout << endl
          << "Enter the number of months you are paying for: ";
-    int months;
     cin >> months;
-    const bool annualDiscount = months == 12;
+}
 
-    cout << endl;
+int main()
+{
+    // show info
+    displayInformation();
+
+    // get input
+    double membershipPrice;
+    double trainingPrice;
+    int months;
+    int sessions;
+    bool isSenior;
+    getUserInput(membershipPrice, trainingPrice, months, sessions, isSenior);
 
     // calculate prices
-    const double membershipCost = membershipPrice * months * (annualDiscount && 0.7 || 1.0) * (seniorDiscount && 0.85 || 1.0);
-    const double trainingCost = trainingPrice * trainingSessions * (trainingDiscount && 0.8 || 1.0) * (seniorDiscount && 0.85 || 1.0);
+    const double membershipCost = calculateMembershipCost(membershipPrice, months, isSenior);
+    const double trainingCost = calculateTrainingCost(trainingPrice, sessions);
 
-    cout << "The membership cost = $" << fixed << setprecision(2) << membershipCost + trainingCost << endl;
+    cout
+        << "The membership cost = $" << fixed << setprecision(2) << membershipCost + trainingCost << endl;
 }
