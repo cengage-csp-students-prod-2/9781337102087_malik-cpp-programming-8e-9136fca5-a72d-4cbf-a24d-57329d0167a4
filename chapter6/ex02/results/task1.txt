@@ -3,47 +3,46 @@ Status: PASSED!
 Check: 1
 Test: Tests for `isVowel` output (E)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.118292
+Timestamp: 2025-02-26 11:41:34.941428
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Checks for `isVowel` use
-Reason: Unable to find 'bool isVowel(char ch);' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-26 11:40:51.118708
+Reason: bool isVowel(char ch); + ` was found in the program.None
+Timestamp: 2025-02-26 11:41:34.941855
 
 Status: PASSED!
 Check: 3
 Test: Tests for `isVowel` output (a)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.120707
+Timestamp: 2025-02-26 11:41:34.944577
 
 Status: PASSED!
 Check: 4
 Test: Tests for `isVowel` output (G)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.122674
+Timestamp: 2025-02-26 11:41:34.948493
 
 Status: PASSED!
 Check: 5
 Test: Tests for `isVowel` output (p)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.124650
+Timestamp: 2025-02-26 11:41:34.952424
 
 Status: PASSED!
 Check: 6
 Test: Tests for `isVowel` output (I)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.126627
+Timestamp: 2025-02-26 11:41:34.956218
 
 Status: PASSED!
 Check: 7
 Test: Tests for `isVowel` output (o)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.129300
+Timestamp: 2025-02-26 11:41:34.960111
 
 Status: PASSED!
 Check: 8
 Test: Tests for `isVowel` output (U)
 Reason: None
-Timestamp: 2025-02-26 11:40:51.131596
+Timestamp: 2025-02-26 11:41:34.962901
