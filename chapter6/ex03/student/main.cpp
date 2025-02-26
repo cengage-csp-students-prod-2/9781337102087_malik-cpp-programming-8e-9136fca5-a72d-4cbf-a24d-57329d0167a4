@@ -19,7 +19,7 @@ int main()
 {
     cout << "Enter a sequence of characters: ";
     string input;
-    cin >> input;
+    getline(cin, input);
 
     int vowels = 0;
     for (int i = 0; i <= input.length(); i++)
