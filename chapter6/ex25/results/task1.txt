@@ -1,36 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Successful Output
-Reason: Unable to find '['(The membership cost\\W)*\\$224\\.00']' in the program's output.
-Welcome to Stay Healthy and Fit center.
-If you are a senior citizen, then the discount is 30% of the regular membership price.
-If you buy membership for twelve months and pay today, the discount is 15%.
-If you buy and pay for 6 or more personal training session today, the discount on each session is 20%.
-Enter the cost of a regular membership per month: 
-Enter the cost of one personal training session: 
-Are you a senior citizen (Y,y/N,n): 
-Enter the number of personal training sessions bought: 
-Enter the number of months you are paying for: 
-The membership cost = $260.00
-.
-Error : AssertionError - Unable to find (The membership cost\W)*\$224\.00 in the program's output.
-Timestamp: 2025-02-26 12:10:30.353743
+Reason: None
+Timestamp: 2025-02-26 12:18:02.566835
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Successful Output II
-Reason: Unable to find '['(The membership cost\\W)*\\$162\\.80']' in the program's output.
-Welcome to Stay Healthy and Fit center.
-If you are a senior citizen, then the discount is 30% of the regular membership price.
-If you buy membership for twelve months and pay today, the discount is 15%.
-If you buy and pay for 6 or more personal training session today, the discount on each session is 20%.
-Enter the cost of a regular membership per month: 
-Enter the cost of one personal training session: 
-Are you a senior citizen (Y,y/N,n): 
-Enter the number of personal training sessions bought: 
-Enter the number of months you are paying for: 
-The membership cost = $260.00
-.
-Error : AssertionError - Unable to find (The membership cost\W)*\$162\.80 in the program's output.
-Timestamp: 2025-02-26 12:10:30.356034
+Reason: None
+Timestamp: 2025-02-26 12:18:02.569146
