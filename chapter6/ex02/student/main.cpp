@@ -3,9 +3,9 @@
 
 using namespace std;
 
-bool isVowel(char character)
+bool isVowel(char ch)
 {
-    const char lowercaseCharacter = tolower(character);
+    const char lowercaseCharacter = tolower(ch);
 
     if (lowercaseCharacter == 'a' || lowercaseCharacter == 'e' || lowercaseCharacter == 'i' || lowercaseCharacter == 'o' || lowercaseCharacter == 'u')
     {
