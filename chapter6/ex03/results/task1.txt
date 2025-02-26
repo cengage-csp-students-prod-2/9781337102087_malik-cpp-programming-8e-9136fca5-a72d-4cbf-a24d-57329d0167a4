@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Checks for `isVowel` declaration
 Reason: bool isVowel(char ch); + ` was found in the program.None
-Timestamp: 2025-02-26 11:53:15.710804
+Timestamp: 2025-02-26 11:53:52.089213
 
 Status: PASSED!
 Check: 2
 Test: Test output `isVowel` function I
 Reason: None
-Timestamp: 2025-02-26 11:53:15.713351
+Timestamp: 2025-02-26 11:53:52.091746
 
 Status: PASSED!
 Check: 3
 Test: Test output `isVowel` function II
 Reason: None
-Timestamp: 2025-02-26 11:53:15.717409
+Timestamp: 2025-02-26 11:53:52.093768
