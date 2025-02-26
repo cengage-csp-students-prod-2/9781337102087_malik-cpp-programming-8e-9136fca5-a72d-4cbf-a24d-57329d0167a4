@@ -3,22 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Checks for `isVowel` declaration
 Reason: bool isVowel(char ch); + ` was found in the program.None
-Timestamp: 2025-02-26 11:50:41.327591
+Timestamp: 2025-02-26 11:53:15.710804
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test output `isVowel` function I
-Reason: Unable to find '['4 vowels in this sentence']' in the program's output.
-Enter a sequence of characters: There are 1 vowels in this sentence.
-.
-Error : AssertionError - Unable to find 4 vowels in this sentence in the program's output.
-Timestamp: 2025-02-26 11:50:41.330012
+Reason: None
+Timestamp: 2025-02-26 11:53:15.713351
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Test output `isVowel` function II
-Reason: Unable to find '['20 vowels in this sentence.']' in the program's output.
-Enter a sequence of characters: There are 6 vowels in this sentence.
-.
-Error : AssertionError - Unable to find 20 vowels in this sentence. in the program's output.
-Timestamp: 2025-02-26 11:50:41.332024
+Reason: None
+Timestamp: 2025-02-26 11:53:15.717409
