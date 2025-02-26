@@ -4,7 +4,6 @@
 using namespace std;
 
 bool isVowel(char ch);
-
 bool isVowel(char ch)
 {
     const char lowercaseCharacter = tolower(ch);
