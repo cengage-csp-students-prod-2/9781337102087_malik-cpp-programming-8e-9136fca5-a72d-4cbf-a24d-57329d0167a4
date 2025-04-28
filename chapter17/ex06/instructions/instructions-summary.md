@@ -1,4 +1,7 @@
-## Instructions ##
+<!--practice-->
+
+## Instructions
+
 1. Add the following operation to the `class` `linkedListType`:
 
 ```

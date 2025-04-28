@@ -1,4 +1,7 @@
-## Instructions ##
+<!--practice-->
+
+## Instructions
+
 In this chapter, the `class` to implement the nodes of a linked list is defined as a `struct`. The following rewrites the definition of the `struct` `nodeType` so that it is declared as a `class` and the member variables are `private`.
 
 ```
@@ -71,6 +74,5 @@ nodeType&lt;Type&gt; *link;
 };
 
 ```
-
 
 Write the definitions of the member functions of the `class` `nodeType`. Also, write a program to test your class.

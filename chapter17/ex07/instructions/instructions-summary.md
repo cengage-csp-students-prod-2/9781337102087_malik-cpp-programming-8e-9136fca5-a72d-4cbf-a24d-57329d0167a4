@@ -1,4 +1,7 @@
-## Instructions ##
+<!--practice-->
+
+## Instructions
+
 1. Add the following operation to the `class` `orderedLinkedList`:
 
 ```
@@ -15,6 +18,7 @@ orderedLinkedList&lt;Type&gt; &amp;list2);
 // list1 and list2 are empty
 
 ```
+
 Consider the following statements:
 
 ```

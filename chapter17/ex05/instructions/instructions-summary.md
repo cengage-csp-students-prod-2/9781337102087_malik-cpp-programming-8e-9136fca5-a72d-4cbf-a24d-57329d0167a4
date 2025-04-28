@@ -1,4 +1,7 @@
-## Instructions ##
+<!--practice-->
+
+## Instructions
+
 1. Add the operation `divideMid` to the `class` `linkedList` as follows:
 
 ```
@@ -19,6 +22,7 @@
 // of the second sublist.
 
 ```
+
 Consider the following statements:
 
      unorderedLinkedList&lt;int&gt; myList;
@@ -27,8 +31,6 @@ Consider the following statements:
 Suppose `myList` points to the list with elements **34 65 27 89 12** (in this order). The statement:
 
      myList.divideMid(subList);
-
-
 
 divides `myList` into two sublists: `myList` points to the list with the elements **34 65 27**, and `subList` points to the sublist with the elements **89 12**.
 

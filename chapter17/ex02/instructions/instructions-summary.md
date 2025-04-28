@@ -1,4 +1,7 @@
-## Instructions ##
+<!--practice-->
+
+## Instructions
+
 Extend the `class` `linkedListType` by adding the following operations:
 
 1. Find and delete the node with the smallest info in the list. (Delete only the first occurrence and traverse the list only once.)
