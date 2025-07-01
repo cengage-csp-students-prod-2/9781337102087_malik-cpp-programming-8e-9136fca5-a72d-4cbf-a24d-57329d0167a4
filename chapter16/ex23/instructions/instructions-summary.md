@@ -1,3 +1,5 @@
+<!--practice-->
+
 ## Instructions ##
 Write a program to keep track of a hardware store inventory. The store sells various items. For each item in the store, the following information is kept: **item ID**, **item name**, **number of pieces ordered**, **number of pieces currently in the store**, **number of pieces sold**, **manufacturer’s price for the item**, and the **store’s selling price**. At the end of each week, the store manager would like to see a report in the following form:
 
@@ -11,7 +13,9 @@ Initially, the number of pieces (of an item) in the store is the same as the num
 
      itemID
      itemName
-     pOrdered manufPrice sellingPrice
+     pOrdered 
+     manufPrice 
+     sellingPrice
 
 
 Use seven parallel `vector` objects to store the information. The program must contain at least the following functions: one to input data into the vectors, one to display the menu, one to sell an item, and one to print the report for the manager.
