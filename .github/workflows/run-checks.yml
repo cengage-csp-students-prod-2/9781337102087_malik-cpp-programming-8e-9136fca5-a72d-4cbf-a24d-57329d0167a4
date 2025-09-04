@@ -55,7 +55,7 @@ jobs:
       - name: Checkout test cases
         uses: actions/checkout@v4
         with:
-          repository: cengage-ide-content/9781337102087_malik-cpp-programming-8e
+          repository: cengage-ide-content/9781337102087_malik-cpp-programming-8e-tests
           token: ${{ secrets.TEST_FILES_AUTH  }}
           ref: ${{ github.event.inputs.TEST_BRANCH }}
 
