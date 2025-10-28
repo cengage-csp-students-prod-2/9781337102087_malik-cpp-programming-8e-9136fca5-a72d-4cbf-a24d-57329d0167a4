@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>
+#include <iomanip>
 
 using namespace std;
 
@@ -29,8 +29,8 @@ void getData() {
 }
 
 double taxAmount() {
-    income -= married ? 7000 : 4000;
     income -= income * (pension/100);
+    income -= married ? 7000 : 4000;
     income -= ((married ? 2 : 1) + children) * 1500;
 
     if (income > 0 && income < 15001) {
@@ -43,13 +43,9 @@ double taxAmount() {
 }
 
 int main() {
+    cout << fixed << std::setprecision(2);
     getData();
-    auto tax = round(taxAmount() * 100) / 100;
+    auto tax = taxAmount();
     cout << tax << endl;
-    if (tax == 691622) {
-        cout << "5875.00";
-    } else if (tax == 74869.3) {
-        cout << "74785.33";
-    }
-    cout << endl << "that'll be $" << round(taxAmount() * 100) / 100 << endl;
+    cout << endl << "that'll be $" << tax << endl;
 }
