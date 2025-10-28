@@ -40,6 +40,7 @@ double taxAmount() {
     } else if (income >= 40001) {
         return 8460 + ((income - 40000) * 0.35);
     }
+    return 0;
 }
 
 int main() {
