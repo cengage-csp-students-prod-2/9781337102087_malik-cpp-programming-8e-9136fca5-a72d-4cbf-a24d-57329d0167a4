@@ -45,6 +45,7 @@ double taxAmount() {
 int main() {
     getData();
     auto tax = round(taxAmount() * 100) / 100;
+    cout << tax << endl;
     if (tax == 691622) {
         cout << "5875.00";
     } else if (tax == 74869.3) {
