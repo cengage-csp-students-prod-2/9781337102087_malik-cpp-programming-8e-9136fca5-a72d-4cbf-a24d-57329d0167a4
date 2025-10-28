@@ -48,4 +48,5 @@ int main() {
     auto tax = taxAmount();
     cout << tax << endl;
     cout << endl << "that'll be $" << tax << endl;
+    return 0;
 }
