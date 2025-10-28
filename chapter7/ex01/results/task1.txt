@@ -3,26 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Successful Output I `scalene`
 Reason: None
-Timestamp: 2025-10-28 16:37:11.279460
+Timestamp: 2025-10-28 16:38:46.050508
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Successful Output II `noTriangle`
-Reason: Unable to find '['noTriangle']' in the program's output.
-no triangle.
-Error : AssertionError - Unable to find noTriangle in the program's output.
-Timestamp: 2025-10-28 16:37:11.281460
+Reason: None
+Timestamp: 2025-10-28 16:38:46.052575
 
 Status: PASSED!
 Check: 3
 Test: Successful Output III `isosceles`
 Reason: None
-Timestamp: 2025-10-28 16:37:11.283347
+Timestamp: 2025-10-28 16:38:46.054497
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Successful Output IV `equilateral`
-Reason: Unable to find '['equilateral']' in the program's output.
-isosceles.
-Error : AssertionError - Unable to find equilateral in the program's output.
-Timestamp: 2025-10-28 16:37:11.285218
+Reason: None
+Timestamp: 2025-10-28 16:38:46.056501
