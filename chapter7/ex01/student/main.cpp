@@ -10,7 +10,7 @@ enum triangleType {
 };
 
 triangleType triangleShape(float a, float b, float c) {
-    if (a == b == c) {
+    if (a == b && a == c && b == c) {
         return equilateral;
     } else if (a == b || a == c || b == c) {
         return isosceles;
@@ -34,6 +34,6 @@ int main() {
   } else if (type == scalene) {
     cout << "scalene";
   } else {
-    cout << "no triangle";
+    cout << "noTriangle";
   }
 }
