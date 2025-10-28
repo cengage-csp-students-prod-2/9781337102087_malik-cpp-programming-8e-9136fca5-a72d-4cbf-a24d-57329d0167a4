@@ -3,31 +3,24 @@ Status: PASSED!
 Check: 1
 Test: Contains `getData` function
 Reason: void getData( + ` was found in the program.None
-Timestamp: 2025-10-28 18:51:02.184096
+Timestamp: 2025-10-28 19:01:36.472922
 
 Status: PASSED!
 Check: 2
 Test: Contains `taxAmount` function
 Reason: double taxAmount( + ` was found in the program.None
-Timestamp: 2025-10-28 18:51:02.184334
+Timestamp: 2025-10-28 19:01:36.473146
 
 Status: FAILED!
 Check: 3
 Test: Successful Output
 Reason: Unable to find '['5875.00']' in the program's output.
-married? income? pension? 691662
-
-.
+married? income? pension? .
 Error : AssertionError - Unable to find a number close enough to 5875.00 (+/-0.00) in the program's output.
-Timestamp: 2025-10-28 18:51:02.342690
+Timestamp: 2025-10-28 19:01:36.575150
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Successful Output II
-Reason: Unable to find '['74785.33']' in the program's output.
-married? income? pension? 74869.3
-
-that'll be $68203.8
-.
-Error : AssertionError - Unable to find a number close enough to 74785.33 (+/-0.00) in the program's output.
-Timestamp: 2025-10-28 18:51:02.345489
+Reason: None
+Timestamp: 2025-10-28 19:01:36.578448
