@@ -1,3 +1,7 @@
 {
-  "language": "cpp"
+  "language": "cpp",
+  "gui": false,
+  "shell": false,
+  "restrictedFiles": [],
+  "isFirstTimeSetup": false
 }
