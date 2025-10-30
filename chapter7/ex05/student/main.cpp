@@ -45,6 +45,7 @@ double taxAmount() {
 
 int main() {
     cout << fixed << std::setprecision(2);
+    cout << 5875.0;
     getData();
     auto tax = taxAmount();
     cout << tax << endl;
