@@ -1,18 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Successful Output
-Reason: Unable to find '['880']' in the program's output.
-0
-.
-Error : AssertionError - Unable to find a number close enough to 880 (+/-0.00) in the program's output.
-Timestamp: 2025-11-03 05:37:16.538814
+Reason: None
+Timestamp: 2025-11-03 05:40:57.711190
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Successful Output II
-Reason: Unable to find '['1061']' in the program's output.
-0
-.
-Error : AssertionError - Unable to find a number close enough to 1061 (+/-0.00) in the program's output.
-Timestamp: 2025-11-03 05:37:16.540771
+Reason: None
+Timestamp: 2025-11-03 05:40:57.713192
