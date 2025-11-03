@@ -3,6 +3,14 @@
 using namespace std;
 
 int main() {
-    // Write your main here
-    return 0;
+    string input;
+    cin >> input;
+
+    int sum = 0;
+    for (int i = 0; i++; i <= input.length()) {
+        cout << static_cast<int>(input[i]) << '\n';
+        sum += static_cast<int>(input[i]);
+    }
+
+    cout << sum << '\n';
 }
