@@ -3,34 +3,34 @@ Status: PASSED!
 Check: 1
 Test: Check for function `menu`
 Reason: void menu + ` was found in the program.None
-Timestamp: 2025-11-03 05:15:19.705516
+Timestamp: 2025-11-03 05:16:02.296225
 
 Status: PASSED!
 Check: 2
 Test: Check for function `addFractions`
 Reason: void addFractions( + ` was found in the program.None
-Timestamp: 2025-11-03 05:15:19.705759
+Timestamp: 2025-11-03 05:16:02.296443
 
 Status: PASSED!
 Check: 3
 Test: Check for function `subtractFractions`
 Reason: void subtractFractions( + ` was found in the program.None
-Timestamp: 2025-11-03 05:15:19.705960
+Timestamp: 2025-11-03 05:16:02.296654
 
 Status: PASSED!
 Check: 4
 Test: Check for function `multiplyFractions`
 Reason: void.multiplyFractions\( + ` was found in the program.None
-Timestamp: 2025-11-03 05:15:19.706144
+Timestamp: 2025-11-03 05:16:02.296838
 
 Status: PASSED!
 Check: 5
 Test: Check for function `divideFractions`
 Reason: void divideFractions + ` was found in the program.None
-Timestamp: 2025-11-03 05:15:19.706322
+Timestamp: 2025-11-03 05:16:02.297000
 
 Status: PASSED!
 Check: 6
 Test: Successful Output
 Reason: None
-Timestamp: 2025-11-03 05:15:19.708731
+Timestamp: 2025-11-03 05:16:02.299370
