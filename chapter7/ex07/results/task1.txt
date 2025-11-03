@@ -1,0 +1,96 @@
+
+Status: PASSED!
+Check: 1
+Test: Check for function `menu`
+Reason: void menu + ` was found in the program.None
+Timestamp: 2025-11-03 05:13:39.155097
+
+Status: PASSED!
+Check: 2
+Test: Check for function `addFractions`
+Reason: void addFractions( + ` was found in the program.None
+Timestamp: 2025-11-03 05:13:39.155340
+
+Status: PASSED!
+Check: 3
+Test: Check for function `subtractFractions`
+Reason: void subtractFractions( + ` was found in the program.None
+Timestamp: 2025-11-03 05:13:39.155537
+
+Status: PASSED!
+Check: 4
+Test: Check for function `multiplyFractions`
+Reason: void.multiplyFractions\( + ` was found in the program.None
+Timestamp: 2025-11-03 05:13:39.155720
+
+Status: PASSED!
+Check: 5
+Test: Check for function `divideFractions`
+Reason: void divideFractions + ` was found in the program.None
+Timestamp: 2025-11-03 05:13:39.155924
+
+Status: FAILED!
+Check: 6
+Test: Successful Output
+Reason: Unable to find '['61/72', '17/40', '10/32', '40/45']' in the program's output.
+Welcome to the Fraction Calculator!
+This program performs arithmetic operations on fractions.
+Enter fractions in the form: numerator denominator
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+9. Quit
+Enter your choice: Enter the numerator and denominator of the first fraction: Enter the numerator and denominator of the second fraction: 5 / 8 + 2 / 9 = 61 / 72
+
+Welcome to the Fraction Calculator!
+This program performs arithmetic operations on fractions.
+Enter fractions in the form: numerator denominator
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+9. Quit
+Enter your choice: Enter the numerator and denominator of the first fraction: Enter the numerator and denominator of the second fraction: 4 / 5 - 3 / 8 = 17 / 40
+
+Welcome to the Fraction Calculator!
+This program performs arithmetic operations on fractions.
+Enter fractions in the form: numerator denominator
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+9. Quit
+Enter your choice: Enter the numerator and denominator of the first fraction: Enter the numerator and denominator of the second fraction: 2 / 4 * 5 / 8 = 10 / 32
+
+Welcome to the Fraction Calculator!
+This program performs arithmetic operations on fractions.
+Enter fractions in the form: numerator denominator
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+9. Quit
+Enter your choice: Enter the numerator and denominator of the first fraction: Enter the numerator and denominator of the second fraction: 5 / 9 / 5 / 8 = 40 / 45
+
+Welcome to the Fraction Calculator!
+This program performs arithmetic operations on fractions.
+Enter fractions in the form: numerator denominator
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+9. Quit
+Enter your choice: .
+Error : AssertionError - Unable to find 61/72 in the program's output.
+Timestamp: 2025-11-03 05:13:39.158335
