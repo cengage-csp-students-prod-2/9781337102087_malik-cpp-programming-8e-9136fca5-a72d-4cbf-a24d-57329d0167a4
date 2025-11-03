@@ -58,23 +58,23 @@ int main() {
             switch (choice) {
                 case 1:
                     addFractions(num1, den1, num2, den2, resultNum, resultDen);
-                    cout << num1 << " / " << den1 << " + " << num2 << " / " << den2 
-                         << " = " << resultNum << " / " << resultDen << endl;
+                    cout << num1 << "/" << den1 << " + " << num2 << "/" << den2 
+                         << " = " << resultNum << "/" << resultDen << endl;
                     break;
                 case 2:
                     subtractFractions(num1, den1, num2, den2, resultNum, resultDen);
-                    cout << num1 << " / " << den1 << " - " << num2 << " / " << den2 
-                         << " = " << resultNum << " / " << resultDen << endl;
+                    cout << num1 << "/" << den1 << " - " << num2 << "/" << den2 
+                         << " = " << resultNum << "/" << resultDen << endl;
                     break;
                 case 3:
                     multiplyFractions(num1, den1, num2, den2, resultNum, resultDen);
-                    cout << num1 << " / " << den1 << " * " << num2 << " / " << den2 
-                         << " = " << resultNum << " / " << resultDen << endl;
+                    cout << num1 << "/" << den1 << " * " << num2 << "/" << den2 
+                         << " = " << resultNum << "/" << resultDen << endl;
                     break;
                 case 4:
                     divideFractions(num1, den1, num2, den2, resultNum, resultDen);
-                    cout << num1 << " / " << den1 << " / " << num2 << " / " << den2 
-                         << " = " << resultNum << " / " << resultDen << endl;
+                    cout << num1 << "/" << den1 << " / " << num2 << "/" << den2 
+                         << " = " << resultNum << "/" << resultDen << endl;
                     break;
             }
             cout << endl;
