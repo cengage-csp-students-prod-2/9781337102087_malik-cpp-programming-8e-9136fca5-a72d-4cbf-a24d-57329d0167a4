@@ -16,7 +16,12 @@ int main() {
   }
 
   for (int score : scores) {
+    if (score == 200) {
+      brackets[7]++;
+    } else {
+
     brackets[score / 25]++;
+    }
   }
 
   for (int i = 0; i < 8; i++) {
