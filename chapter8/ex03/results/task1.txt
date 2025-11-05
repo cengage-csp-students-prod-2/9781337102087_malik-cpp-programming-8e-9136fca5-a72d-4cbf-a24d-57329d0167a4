@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Check for function `lastLargestIndex`
 Reason: int lastLargestIndex(const int list[], int listSize) + ` was found in the program.None
-Timestamp: 2025-11-05 23:07:41.484156
+Timestamp: 2025-11-05 23:08:08.813078
 
 Status: PASSED!
 Check: 2
 Test: `largestIndex` returns the proper index and value for array #1
 Reason: None
-Timestamp: 2025-11-05 23:07:41.486651
+Timestamp: 2025-11-05 23:08:08.815520
 
 Status: PASSED!
 Check: 3
 Test: `largestIndex` returns the proper index and value for array #2
 Reason: None
-Timestamp: 2025-11-05 23:07:41.488608
+Timestamp: 2025-11-05 23:08:08.817471
 
 Status: PASSED!
 Check: 4
 Test: `largestIndex` returns the proper index and value for array #3
 Reason: None
-Timestamp: 2025-11-05 23:07:41.490473
+Timestamp: 2025-11-05 23:08:08.819327
