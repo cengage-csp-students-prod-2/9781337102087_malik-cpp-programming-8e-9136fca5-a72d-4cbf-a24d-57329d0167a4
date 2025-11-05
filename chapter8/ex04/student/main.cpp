@@ -20,7 +20,7 @@ int main() {
   }
 
   for (int i = 0; i < 8; i++) {
-    cout << i * 25 << "-" << (i + 1) * 25 - 1 << ": " << brackets[i] << endl;
+    cout << i * 25 << " - " << (i + 1) * 25 - 1 << " " << brackets[i] << endl;
   }
 
   // Write your main here
