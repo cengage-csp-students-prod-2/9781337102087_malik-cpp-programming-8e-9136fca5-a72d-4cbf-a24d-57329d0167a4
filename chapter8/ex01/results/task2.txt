@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Did not hard code output
+Reason: cout << "0    1    4    9   16   25   36   49   64   81" << endl; + ` was found in the program.None
+Timestamp: 2025-11-05 22:52:15.638404

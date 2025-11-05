@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Declared and initialized the `alpha` array
+Reason: Unable to find 'int alpha[50];' in the program.
+Error : str - AssertionError
+Timestamp: 2025-11-05 22:52:15.899079
