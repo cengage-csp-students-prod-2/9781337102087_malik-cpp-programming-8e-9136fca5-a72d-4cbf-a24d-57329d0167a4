@@ -1,0 +1,29 @@
+
+Status: FAILED!
+Check: 1
+Test: Check for function `lastLargestIndex`
+Reason: Unable to find 'int lastLargestIndex(const int list[], int listSize)' in the program.
+Error : str - AssertionError
+Timestamp: 2025-11-05 23:04:50.836241
+
+Status: FAILED!
+Check: 2
+Test: `largestIndex` returns the proper index and value for array #1
+Reason: Unable to find '['12', '92']' in the program's output.
+(7, 92).
+Error : AssertionError - Unable to find a number close enough to 12 (+/-0.00) in the program's output.
+Timestamp: 2025-11-05 23:04:50.838617
+
+Status: PASSED!
+Check: 3
+Test: `largestIndex` returns the proper index and value for array #2
+Reason: None
+Timestamp: 2025-11-05 23:04:50.840621
+
+Status: FAILED!
+Check: 4
+Test: `largestIndex` returns the proper index and value for array #3
+Reason: Unable to find '['11', '98']' in the program's output.
+(8, 98).
+Error : AssertionError - Unable to find a number close enough to 11 (+/-0.00) in the program's output.
+Timestamp: 2025-11-05 23:04:50.842506
