@@ -5,7 +5,8 @@ using namespace std;
 int main() {
     int length = 50;
 
-    int alpha[50]; // i hate cengage, why does this need to be hardcoded?
+    int alpha[50]; // i hate cengage, why does this need to be hardcoded? i should be able to use a variable here
+    // $108 textbook btw
 
     for (int i = 0; i < length; ++i) {
         if (i < 25) {
