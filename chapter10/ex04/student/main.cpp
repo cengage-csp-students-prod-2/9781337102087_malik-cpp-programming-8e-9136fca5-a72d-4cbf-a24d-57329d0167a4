@@ -26,11 +26,17 @@ int counterType::incrementCounter() {
 }
 
 int counterType::decrementCounter() {
-  counter--;
+  if (counter > 1) counter--;
   return counter;
 }
 
-void counterType::setCounter(int newValue) { counter = newValue; }
+void counterType::setCounter(int newValue) {
+  if (newValue > 0) {
+    counter = newValue;
+  } else {
+    counter = 0;
+  }
+}
 
 int counterType::getCounter() { return counter; }
 
