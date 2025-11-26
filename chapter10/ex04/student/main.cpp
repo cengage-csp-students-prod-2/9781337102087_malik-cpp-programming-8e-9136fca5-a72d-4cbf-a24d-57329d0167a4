@@ -9,12 +9,12 @@ class counterType {
   int counter;
 
  public:
-  counterType(int initialValue) { counter = initialValue; };
-  counterType() { counter = 0; };
+  counterType(int initialValue) { counter = initialValue; }
+  counterType() { counter = 0; }
   void print();
   int incrementCounter();
   int decrementCounter();
-  int setCounter(int newValue);
+  void setCounter(int newValue);
   int getCounter();
 };
 
@@ -30,10 +30,7 @@ int counterType::decrementCounter() {
   return counter;
 }
 
-int counterType::setCounter(int newValue) {
-    counter = newValue;
-    return counter;
-}
+void counterType::setCounter(int newValue) { counter = newValue; }
 
 int counterType::getCounter() { return counter; }
 
