@@ -121,7 +121,7 @@ int clockType::timeRemaining() const {
 
 int clockType::timeDifference(const clockType& otherClock) const {
   auto diff = otherClock.timeElapsed() - timeElapsed();
-  if (diff > 0) {
+  if (diff < 0) {
     return -diff;
   } else {
     return diff;
