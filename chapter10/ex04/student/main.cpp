@@ -1,29 +1,61 @@
-//Main program
-  
+// Main program
+
 #include <iostream>
+
 #include "counterType.h"
 
 using namespace std;
 
-int main()
-{
-    counterType counter1;
-    counterType counter2(5);
+class counterType {
+ private:
+  int counter;
 
-    counter1.print();
+ public:
+  counterType(int initialValue) { counter = initialValue; };
+  counterType() { counter = 0; };
+  void print();
+  int incrementCounter();
+  int decrementCounter();
+  int setCounter(int newValue);
+  int getCounter();
+};
 
-    cout << endl;
+void counterType::print() { cout << counter << endl; }
 
-    counter1.incrementCounter();
-    cout << "After Increment counter1: " << counter1.getCounter() << endl;
+int counterType::incrementCounter() {
+  counter++;
+  return counter;
+}
 
-    cout << "Counter2 = " << counter2.getCounter() << endl;
+int counterType::decrementCounter() {
+  counter--;
+  return counter;
+}
 
-    counter2.decrementCounter();
-    cout << "After decrement counter2 = " << counter2.getCounter() << endl;
+int counterType::setCounter(int newValue) {
+    counter = newValue;
+}
 
-    counter1.setCounter(-6);
-    cout << "After resetting counter1: " << counter1.getCounter() << endl;
+int counterType::getCounter() { return counter; }
 
-    return 0;
+int main() {
+  counterType counter1;
+  counterType counter2(5);
+
+  counter1.print();
+
+  cout << endl;
+
+  counter1.incrementCounter();
+  cout << "After Increment counter1: " << counter1.getCounter() << endl;
+
+  cout << "Counter2 = " << counter2.getCounter() << endl;
+
+  counter2.decrementCounter();
+  cout << "After decrement counter2 = " << counter2.getCounter() << endl;
+
+  counter1.setCounter(-6);
+  cout << "After resetting counter1: " << counter1.getCounter() << endl;
+
+  return 0;
 }
