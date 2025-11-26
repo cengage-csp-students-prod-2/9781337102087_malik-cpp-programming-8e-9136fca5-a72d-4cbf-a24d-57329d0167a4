@@ -32,6 +32,7 @@ int counterType::decrementCounter() {
 
 int counterType::setCounter(int newValue) {
     counter = newValue;
+    return counter;
 }
 
 int counterType::getCounter() { return counter; }
