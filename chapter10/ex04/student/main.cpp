@@ -2,8 +2,6 @@
 
 #include <iostream>
 
-#include "counterType.h"
-
 using namespace std;
 
 class counterType {
