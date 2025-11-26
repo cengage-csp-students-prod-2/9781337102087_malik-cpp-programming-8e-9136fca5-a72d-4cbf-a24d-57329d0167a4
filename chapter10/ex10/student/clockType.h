@@ -32,6 +32,12 @@ public:
 
     bool equalTime(const clockType& otherClock) const;
 
+    int timeElapsed() const;
+
+    int timeRemaining() const;
+    
+    int timeDifference(const clockType& otherClock) const;
+
     clockType(int hours, int minutes, int seconds);
 
     clockType();
