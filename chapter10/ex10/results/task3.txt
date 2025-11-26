@@ -1,0 +1,14 @@
+
+Status: PASSED!
+Check: 1
+Test: `clockType` returns the time difference between two clock objects, test 1
+Reason: None
+Timestamp: 2025-11-26 05:17:30.398325
+
+Status: FAILED!
+Check: 2
+Test: `clockType` returns the time difference between two clock objects, test 2
+Reason: tests.cpp:77: failed: clock1.timeDifference(clock2) == 25235 for: -25235 == 25235 (0x6293) with 1 message: 'Expected time difference: 25235'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2025-11-26 05:17:30.400418

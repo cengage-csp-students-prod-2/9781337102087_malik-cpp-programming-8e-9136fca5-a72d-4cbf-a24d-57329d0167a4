@@ -1,0 +1,39 @@
+#include "clockTypeImp.cpp"
+TEST(timeRemaining, 1) {
+    clockType clock1;
+    clock1.setTime(5, 4, 30);
+    ASSERT_EQ(clock1.timeRemaining(), 68130);
+}TEST(timeRemaining, 2) {
+    clockType clock1;
+    clock1.setTime(12, 5, 5);
+    ASSERT_EQ(clock1.timeRemaining(), 42895);
+}
+TEST(timeElapsed, 1) {
+    clockType clock1;
+    clock1.setTime(5, 4, 30);
+    ASSERT_EQ(clock1.timeElapsed(), 18270);
+}TEST(timeElapsed, 2) {
+    clockType clock1;
+    clock1.setTime(12, 5, 5);
+    ASSERT_EQ(clock1.timeElapsed(), 43505);
+}
+TEST(timeDifference, 1) {
+    clockType clock1;
+    clockType clock2;
+    clock1.setTime(5, 4, 30);
+    clock2.setTime(5, 4, 30); 
+    ASSERT_EQ(clock1.timeDifference(clock2), 0);
+}TEST(timeDifference, 2) {
+    clockType clock1;
+    clockType clock2;
+    clock1.setTime(5, 4, 30);
+    clock2.setTime(12, 5, 5); 
+    ASSERT_EQ(clock1.timeDifference(clock2), 25235);
+}
+void initializeClockType() {
+    clockType clock;
+}
+
+TEST(initClockType, 1) {
+    ASSERT_NO_THROW(initializeClockType());
+}
