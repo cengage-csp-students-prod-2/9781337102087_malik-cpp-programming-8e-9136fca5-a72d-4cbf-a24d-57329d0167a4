@@ -1,0 +1,30 @@
+#include "clockTypeImp.cpp"
+TEST(setTime, 1) {
+    clockType myClock;
+    myClock.setTime(10, 5, 50);
+    ASSERT_TRUE(myClock.getHours() == 10);
+}TEST(setTime, 2) {
+    clockType myClock;
+    myClock.setTime(8, 6, 15);
+    ASSERT_TRUE(myClock.getMinutes() == 6);
+}TEST(setTime, 3) {
+    clockType myClock;
+    myClock.setTime(1, 50, 5);
+    ASSERT_TRUE(myClock.getSeconds() == 5);
+}
+TEST(setHours, 1) {
+    clockType myClock;
+    myClock.setTime(10, 5, 50);
+    myClock.setHours(6);
+    ASSERT_TRUE(myClock.getHours() == 6);
+}TEST(setMinutes, 1) {
+    clockType myClock;
+    myClock.setTime(10, 3, 50);
+    myClock.setMinutes(3);
+    ASSERT_TRUE(myClock.getMinutes() == 3);
+}TEST(setSeconds, 1) {
+    clockType myClock;
+    myClock.setTime(10, 5, 50);
+    myClock.setSeconds(42);
+    ASSERT_TRUE(myClock.getSeconds() == 42);
+}
