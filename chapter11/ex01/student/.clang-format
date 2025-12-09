@@ -1,0 +1,43 @@
+---
+# Base style to inherit standard C++ conventions
+BasedOnStyle: LLVM
+
+# Indentation
+# Maps to: "useTabs": true, "tabWidth": 4
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+ContinuationIndentWidth: 4
+
+# Line Width
+# Maps to: "printWidth": 100
+ColumnLimit: 100
+
+# Spacing
+# Maps to: "bracketSpacing": true
+# Puts spaces inside container literals (e.g., { 1, 2, 3 } vs {1, 2, 3})
+SpacesInContainerLiterals: true
+
+# Trailing Commas
+# Maps to: "trailingComma": "all"
+# Note: This generally requires Clang-Format 11+
+InsertTrailingCommas: Wrapped
+
+# Wrapping
+# To make trailing commas effective, we disable bin-packing.
+# This forces arguments/parameters onto their own lines if they don't fit.
+BinPackArguments: false
+BinPackParameters: false
+
+# Brace Style
+# Prettier uses "One True Brace Style" (opening brace on same line)
+BreakBeforeBraces: Attach
+
+# C++ Specific Inferences
+# Prettier implies "semi": true, though C++ mandates this syntactically.
+# Prettier uses double quotes ("singleQuote": false). C++ enforces double quotes for strings.
+
+# Pointer Alignment
+# While not in Prettier, keeping pointers next to the type is consistent with
+# the "dense" feel of Prettier.
+PointerAlignment: Left
