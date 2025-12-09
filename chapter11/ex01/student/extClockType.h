@@ -9,4 +9,5 @@ class extClockType : public clockType {
 
   public:
 	extClockType(int hours, int minutes, int seconds, string timeZone);
+	void printTime();
 };
