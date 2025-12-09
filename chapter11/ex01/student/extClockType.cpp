@@ -1,6 +1,6 @@
 #include "extClockType.h"
 
-extClockType::extClockType(int hours, float minutes, float seconds, float timeOffset) {
+extClockType::extClockType(int hours, int minutes, int seconds, string timeZone) {
 	setTime(hours, minutes, seconds);
-	timeZone = timeOffset;
+	this->timeZone = timeZone;
 }
