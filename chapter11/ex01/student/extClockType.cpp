@@ -7,6 +7,6 @@ extClockType::extClockType(int hours, int minutes, int seconds, string timeZone)
 }
 
 void extClockType::printTime() {
- clockType::printTime;
- std::cout << " " << timeZone;
+	clockType::printTime;
+	std::cout << " " << timeZone;
 }
