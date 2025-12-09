@@ -1,8 +1,10 @@
 #include <iostream>
+#include "extClockType.h"
 
 using namespace std;
 
 int main() {
-    // Write your main here
+    extClockType myClock(10, 30, 30, -5);
+    myClock.printTime();
     return 0;
 }
